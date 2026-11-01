@@ -4,63 +4,307 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GoalZone | Premium Football</title>
+<meta name="description" content="GoalZone - Your home of football entertainment and authorised live broadcasts.">
+<title>GoalZone | Football Live</title>
 
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:Arial,sans-serif;background:#071426;color:#fff}
-header{height:75px;padding:0 7%;display:flex;align-items:center;justify-content:space-between;background:#0d2038;border-bottom:1px solid #203957}
-.logo{font-size:27px;font-weight:900;color:white}
-.logo span{color:#32d98a}
-nav a{color:#cbd5e1;text-decoration:none;margin-left:25px;font-size:14px}
-nav a:hover{color:#32d98a}
-.hero{padding:65px 7%;background:linear-gradient(110deg,#102e50,#09182b 75%)}
-.hero h1{font-size:44px;max-width:650px;line-height:1.2;margin-bottom:18px}
-.hero h1 span{color:#32d98a}
-.hero p{color:#b6c6d9;line-height:1.7;max-width:550px;margin-bottom:28px}
-.btn{display:inline-block;background:#32d98a;color:#071426;text-decoration:none;padding:14px 25px;border-radius:5px;font-weight:bold}
-.container{padding:38px 7%}
-.heading{font-size:23px;margin-bottom:24px}
-.heading span{color:#32d98a}
-.player{
-    background:#10243c;
-    border:1px solid #29415d;
-    border-radius:10px;
-    overflow:hidden;
-    width:100%;
-    display:block;
+:root {
+    --background: #071426;
+    --panel: #10243c;
+    --panel2: #142d49;
+    --border: #29415d;
+    --white: #ffffff;
+    --muted: #9db0c6;
+    --green: #32d98a;
 }
 
-.player video{
-    display:block;
-    width:100%;
-    height:auto;
-    min-height:300px;
-    aspect-ratio:16/9;
-    object-fit:contain;
-    background:#020813;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.player-info{padding:22px}
-.player-info h3{margin-bottom:10px}
-.muted{color:#9db0c6;font-size:14px;line-height:1.6}
-.live{color:#32d98a;font-size:12px;font-weight:bold;margin-bottom:13px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
-.card{background:#10243c;border:1px solid #29415d;border-radius:9px;padding:24px;text-align:center;transition:.2s}
-.card:hover{border-color:#32d98a;transform:translateY(-4px)}
-.league{font-size:12px;color:#32d98a;font-weight:bold}
-.teams{font-size:18px;font-weight:bold;margin:20px 0}
-.time{font-size:13px;color:#a9bbce}
-.card button{margin-top:17px;padding:10px 18px;background:#1c3858;color:white;border:1px solid #3a5675;border-radius:5px;cursor:pointer}
-.card button:hover{background:#32d98a;color:#071426}
-.leagues{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px}
-.league-card{background:#10243c;border:1px solid #29415d;border-radius:8px;padding:22px;text-align:center;font-weight:bold}
-footer{background:#0d2038;padding:35px 7%;text-align:center;color:#9db0c6;margin-top:35px}
-footer .logo{margin-bottom:12px}
-@media(max-width:600px){
-header{height:auto;padding:20px;flex-direction:column;gap:18px}
-nav a{margin:0 7px;font-size:12px}
-.hero h1{font-size:32px}
-.container{padding:30px 5%}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: var(--background);
+    color: var(--white);
+    line-height: 1.6;
+}
+
+header {
+    background: #091a2e;
+    padding: 18px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.logo span {
+    color: var(--green);
+}
+
+nav {
+    display: flex;
+    gap: 24px;
+}
+
+nav a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--green);
+}
+
+.hero {
+    padding: 85px 7%;
+    text-align: center;
+    background: linear-gradient(135deg, #102d4c, #071426);
+}
+
+.hero h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.hero h1 span {
+    color: var(--green);
+}
+
+.hero p {
+    color: var(--muted);
+    margin-bottom: 28px;
+}
+
+.primary-btn {
+    display: inline-block;
+    background: var(--green);
+    color: #071426;
+    padding: 13px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    padding: 55px 7%;
+}
+
+.heading {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.heading span {
+    color: var(--green);
+}
+
+.player {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.player video {
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    aspect-ratio: 16/9;
+    object-fit: contain;
+    background: #020813;
+}
+
+.player-info {
+    padding: 22px;
+}
+
+.player-info h3 {
+    margin: 10px 0;
+}
+
+.live {
+    color: var(--green);
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.muted {
+    color: var(--muted);
+    font-size: 14px;
+}
+
+.match-tools {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.match-tools input,
+.match-tools select {
+    background: var(--panel);
+    color: white;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 12px;
+    font-size: 14px;
+}
+
+.match-tools input {
+    flex: 1;
+    min-width: 190px;
+}
+
+.match-tools select {
+    min-width: 180px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 18px;
+}
+
+.card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    padding: 23px;
+    transition: .2s;
+}
+
+.card:hover {
+    border-color: var(--green);
+    transform: translateY(-4px);
+}
+
+.league {
+    font-size: 12px;
+    color: var(--green);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.teams {
+    font-size: 17px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.time {
+    font-size: 13px;
+    color: var(--muted);
+}
+
+.card button {
+    margin-top: 18px;
+    width: 100%;
+    padding: 11px;
+    background: var(--green);
+    color: #071426;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background: white;
+}
+
+.message {
+    color: var(--muted);
+    padding: 20px;
+    background: var(--panel);
+    border-radius: 8px;
+    grid-column: 1 / -1;
+}
+
+.leagues {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 14px;
+}
+
+.league-card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.league-card:hover {
+    border-color: var(--green);
+}
+
+footer {
+    background: #091a2e;
+    padding: 35px 7%;
+    text-align: center;
+    color: var(--muted);
+    margin-top: 35px;
+}
+
+footer .logo {
+    margin-bottom: 12px;
+    color: white;
+}
+
+footer .logo span {
+    color: var(--green);
+}
+
+@media(max-width: 650px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav {
+        gap: 13px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .container {
+        padding: 35px 5%;
+    }
+
+    .player video {
+        min-height: 200px;
+    }
 }
 </style>
 </head>
@@ -68,204 +312,203 @@ nav a{margin:0 7px;font-size:12px}
 <body>
 
 <header>
-<div class="logo">⚽ GOAL<span>ZONE</span></div>
-<nav>
-<a href="#home">Home</a>
-<a href="#live">Live TV</a>
-<a href="#matches">Matches</a>
-<a href="#leagues">Leagues</a>
-</nav>
+    <div class="logo">⚽ GOAL<span>ZONE</span></div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#live">Live TV</a>
+        <a href="#matches">Matches</a>
+        <a href="#leagues">Leagues</a>
+    </nav>
 </header>
 
 <section class="hero" id="home">
-<h1>FOOTBALL IS BETTER <span>LIVE.</span></h1>
-<p>Welcome to GoalZone. Your destination for premium football entertainment, live match broadcasts and the beautiful game.</p>
-<a href="#live" class="btn">EXPLORE LIVE FOOTBALL →</a>
+    <h1>FOOTBALL IS BETTER <span>LIVE.</span></h1>
+    <p>Your home of premium football entertainment.</p>
+    <a href="#matches" class="primary-btn">Explore Matches</a>
 </section>
 
 <section class="container" id="live">
-<h2 class="heading"><span>●</span> LIVE STREAMING</h2>
-<div class="player">
-<video controls playsinline poster="">
-    <source
-        src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
-        type="video/mp4">
-    Your browser does not support video playback..
-</video>
-<div class="player-info">
-<div class="live">● STREAMING CENTER</div>
-<h3>GoalZone HD Player</h3>
-<p class="muted">Your live football experience starts here. Authorised match broadcasts will be available when connected.</p>
-</div>
-</div>
-</section>
+    <h2 class="heading">● <span>LIVE</span> STREAMING</h2>
 
+    <div class="player">
+        <video controls playsinline>
+            <source
+                src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+                type="video/mp4">
+            Your browser does not support video playback.
+        </video>
+
+        <div class="player-info">
+            <div class="live">● STREAMING CENTER</div>
+            <h3>GoalZone HD Player</h3>
+            <p class="muted">
+                Your live football experience starts here.
+                Authorised match broadcasts will appear here
+                when connected.
+            </p>
+        </div>
+    </div>
+</section>
 
 <section class="container" id="matches">
-<h2 class="heading">MATCH <span>CENTER</span></h2>
+    <h2 class="heading">UPCOMING <span>MATCHES</span></h2>
 
-<div class="grid">
+    <div class="match-tools">
+        <input
+            type="search"
+            id="matchSearch"
+            placeholder="Search teams or competitions...">
 
-<div class="card">
-<div class="league">PREMIER LEAGUE</div>
-<div class="live">● UPCOMING MATCH</div>
-<div class="teams">🔵 Chelsea vs Liverpool 🔴</div>
-<div class="time">Fixture information to be confirmed</div>
-<button onclick="alert('An authorised broadcast is not connected yet.')">Watch Live</button>
-</div>
+        <select id="leagueFilter">
+            <option value="all">All competitions</option>
+            <option value="Premier League">Premier League</option>
+            <option value="La Liga">La Liga</option>
+            <option value="Bundesliga">Bundesliga</option>
+            <option value="Serie A">Serie A</option>
+            <option value="Ligue 1">Ligue 1</option>
+            <option value="Champions League">Champions League</option>
+        </select>
+    </div>
 
-<div class="card">
-<div class="league">LA LIGA</div>
-<div class="live">● UPCOMING MATCH</div>
-<div class="teams">⚪ Real Madrid vs Barcelona 🔵</div>
-<div class="time">Fixture information to be confirmed</div>
-<button onclick="alert('An authorised broadcast is not connected yet.')">Watch Live</button>
-</div>
-
-<div class="card">
-<div class="league">SERIE A</div>
-<div class="live">● UPCOMING MATCH</div>
-<div class="teams">🔵 Inter vs AC Milan 🔴</div>
-<div class="time">Fixture information to be confirmed</div>
-<button onclick="alert('An authorised broadcast is not connected yet.')">Watch Live</button>
-</div>
-
-</div>
+    <div class="grid" id="matchGrid">
+        <div class="message">Loading upcoming matches...</div>
+    </div>
 </section>
 
-
 <section class="container" id="leagues">
-<h2 class="heading">POPULAR <span>LEAGUES</span></h2>
-<div class="leagues">
-<div class="league-card">🏆 Premier League</div>
-<div class="league-card">🏆 La Liga</div>
-<div class="league-card">🏆 Bundesliga</div>
-<div class="league-card">🏆 Serie A</div>
-<div class="league-card">🏆 Ligue 1</div>
-<div class="league-card">🏆 Champions League</div>
-</div>
+    <h2 class="heading">POPULAR <span>LEAGUES</span></h2>
+
+    <div class="leagues">
+        <div class="league-card">🏆 Premier League</div>
+        <div class="league-card">🏆 La Liga</div>
+        <div class="league-card">🏆 Bundesliga</div>
+        <div class="league-card">🏆 Serie A</div>
+        <div class="league-card">🏆 Ligue 1</div>
+        <div class="league-card">🏆 Champions League</div>
+    </div>
 </section>
 
 <footer>
-<div class="logo">⚽ GOAL<span>ZONE</span></div>
-<p>Your home of premium football entertainment.</p>
-<p style="margin-top:15px;font-size:12px">© 2026 GoalZone. All rights reserved.</p>
+    <div class="logo">⚽ GOAL<span>ZONE</span></div>
+    <p>Your home of premium football entertainment.</p>
+    <p style="margin-top:15px;font-size:12px">
+        © 2026 GoalZone. All rights reserved.
+    </p>
 </footer>
 
+<script>
+const matchGrid = document.getElementById("matchGrid");
+const matchSearch = document.getElementById("matchSearch");
+const leagueFilter = document.getElementById("leagueFilter");
 
+let allMatches = [];
 
-name: Update GoalZone Fixtures
+async function loadGoalZoneFixtures() {
+    matchGrid.innerHTML =
+        '<div class="message">Loading upcoming matches...</div>';
 
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: "0 */6 * * *"
+    try {
+        const response = await fetch("./fixtures.json?t=" + Date.now());
 
-permissions:
-  contents: write
+        if (!response.ok) {
+            throw new Error("Could not retrieve fixtures.json");
+        }
 
-jobs:
-  update:
-    runs-on: ubuntu-latest
+        const data = await response.json();
 
-    steps:
-      - name: Get GoalZone files
-        uses: actions/checkout@v4
+        allMatches = (data.matches || [])
+            .filter(match => match.date && match.home && match.away)
+            .sort((a, b) => new Date(a.date) - new Date(b.date));
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
+        if (allMatches.length === 0) {
+            matchGrid.innerHTML =
+                '<div class="message">No upcoming matches available. Please check again later.</div>';
+            return;
+        }
 
-      - name: Fetch upcoming football matches
-        env:
-          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
-        run: |
-          python - <<'PY'
-          import json
-          import os
-          import urllib.request
-          import urllib.parse
-          import datetime
-          import time
+        displayMatches();
 
-          token = os.environ["FOOTBALL_DATA_TOKEN"]
+    } catch (error) {
+        console.error("GoalZone fixtures error:", error);
 
-          leagues = {
-              "Premier League": "PL",
-              "La Liga": "PD",
-              "Bundesliga": "BL1",
-              "Serie A": "SA",
-              "Ligue 1": "FL1",
-              "Champions League": "CL"
-          }
+        matchGrid.innerHTML =
+            '<div class="message">Unable to load fixtures. Please try again later.</div>';
+    }
+}
 
-          today = datetime.date.today()
-          end_date = today + datetime.timedelta(days=30)
+function displayMatches() {
+    const search = matchSearch.value.toLowerCase().trim();
+    const selectedLeague = leagueFilter.value;
 
-          all_matches = []
-          errors = []
+    const filtered = allMatches.filter(match => {
+        const searchable =
+            (match.home + " " + match.away + " " + match.league)
+            .toLowerCase();
 
-          for name, code in leagues.items():
-              params = urllib.parse.urlencode({
-                  "dateFrom": today.isoformat(),
-                  "dateTo": end_date.isoformat(),
-                  "status": "SCHEDULED,TIMED"
-              })
+        const matchesSearch = searchable.includes(search);
 
-              url = (
-                  f"https://api.football-data.org/v4/"
-                  f"competitions/{code}/matches?{params}"
-              )
+        const matchesLeague =
+            selectedLeague === "all" ||
+            match.league === selectedLeague;
 
-              request = urllib.request.Request(
-                  url,
-                  headers={"X-Auth-Token": token}
-              )
+        return matchesSearch && matchesLeague;
+    });
 
-              try:
-                  with urllib.request.urlopen(request, timeout=30) as response:
-                      data = json.loads(response.read().decode())
+    matchGrid.innerHTML = "";
 
-                  for match in data.get("matches", []):
-                      all_matches.append({
-                          "league": name,
-                          "home": match["homeTeam"]["name"],
-                          "away": match["awayTeam"]["name"],
-                          "date": match["utcDate"],
-                          "status": match["status"]
-                      })
+    if (filtered.length === 0) {
+        matchGrid.innerHTML =
+            '<div class="message">No matches found for your search.</div>';
+        return;
+    }
 
-                  print(f"{name}: fetched successfully")
+    filtered.forEach(match => {
+        const card = document.createElement("div");
+        card.className = "card";
 
-              except Exception as error:
-                  errors.append(f"{name}: {error}")
-                  print(f"{name}: unavailable - {error}")
+        const league = document.createElement("div");
+        league.className = "league";
+        league.textContent = match.league;
 
-              time.sleep(2)
+        const status = document.createElement("div");
+        status.className = "live";
+        status.textContent = "● UPCOMING MATCH";
 
-          output = {
-              "updated": datetime.datetime.now(
-                  datetime.timezone.utc
-              ).isoformat(),
-              "matches": all_matches,
-              "errors": errors
-          }
+        const teams = document.createElement("div");
+        teams.className = "teams";
+        teams.textContent = match.home + " vs " + match.away;
 
-          with open("fixtures.json", "w") as file:
-              json.dump(output, file, indent=2)
+        const time = document.createElement("div");
+        time.className = "time";
 
-          print("Total matches:", len(all_matches))
-          PY
+        const date = new Date(match.date);
 
-      - name: Save updated fixtures
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add fixtures.json
-          git diff --cached --quiet || (
-            git commit -m "Update GoalZone fixtures"
-            git push
-          )
+        time.textContent = date.toLocaleString("en-KE", {
+            dateStyle: "medium",
+            timeStyle: "short",
+            timeZone: "Africa/Nairobi"
+        }) + " (EAT)";
+
+        const button = document.createElement("button");
+        button.textContent = "Watch Live";
+
+        button.addEventListener("click", () => {
+            alert(
+                "An authorised broadcast for this match is not connected yet."
+            );
+        });
+
+        card.append(league, status, teams, time, button);
+        matchGrid.appendChild(card);
+    });
+}
+
+matchSearch.addEventListener("input", displayMatches);
+leagueFilter.addEventListener("change", displayMatches);
+
+loadGoalZoneFixtures();
+</script>
+
 </body>
 </html>
