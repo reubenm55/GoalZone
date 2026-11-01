@@ -4,12 +4,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="GoalZone - Your home of football entertainment and authorised live broadcasts.">
-<title>GoalZone | Football Live</title>
+<meta name="description" content="GoalZone - Football fixtures, updates and authorised football broadcasts.">
+<title>GoalZone | Football</title>
 
 <style>
 :root {
-    --background: #071426;
+    --bg: #071426;
     --panel: #10243c;
     --panel2: #142d49;
     --border: #29415d;
@@ -24,13 +24,11 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; }
 
 body {
     font-family: Arial, sans-serif;
-    background: var(--background);
+    background: var(--bg);
     color: var(--white);
     line-height: 1.6;
 }
@@ -41,6 +39,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
     border-bottom: 1px solid var(--border);
     position: sticky;
     top: 0;
@@ -51,44 +50,39 @@ header {
     font-size: 25px;
     font-weight: 900;
     letter-spacing: 1px;
+    white-space: nowrap;
 }
 
-.logo span {
-    color: var(--green);
-}
+.logo span { color: var(--green); }
 
 nav {
     display: flex;
-    gap: 20px;
+    gap: 22px;
     flex-wrap: wrap;
 }
 
 nav a {
-    color: var(--white);
+    color: white;
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
 }
 
-nav a:hover {
-    color: var(--green);
-}
+nav a:hover { color: var(--green); }
 
 .hero {
-    padding: 85px 7%;
+    padding: 90px 7%;
     text-align: center;
     background: linear-gradient(135deg, #102d4c, #071426);
 }
 
 .hero h1 {
-    font-size: 48px;
+    font-size: clamp(32px, 6vw, 52px);
     line-height: 1.2;
     margin-bottom: 15px;
 }
 
-.hero h1 span {
-    color: var(--green);
-}
+.hero h1 span { color: var(--green); }
 
 .hero p {
     color: var(--muted);
@@ -105,45 +99,33 @@ nav a:hover {
     font-weight: bold;
 }
 
-.container {
-    padding: 55px 7%;
-}
+.container { padding: 55px 7%; }
 
 .heading {
-    font-size: 25px;
+    font-size: 26px;
     margin-bottom: 25px;
 }
 
-.heading span {
-    color: var(--green);
-}
+.heading span { color: var(--green); }
 
 .player {
     background: var(--panel);
     border: 1px solid var(--border);
     border-radius: 10px;
     overflow: hidden;
-    width: 100%;
-    display: block;
 }
 
 .player video {
     display: block;
     width: 100%;
-    height: auto;
-    min-height: 300px;
-    aspect-ratio: 16/9;
+    aspect-ratio: 16 / 9;
     object-fit: contain;
     background: #020813;
 }
 
-.player-info {
-    padding: 22px;
-}
+.player-info { padding: 22px; }
 
-.player-info h3 {
-    margin: 10px 0;
-}
+.player-info h3 { margin: 10px 0; }
 
 .live {
     color: var(--green);
@@ -179,9 +161,7 @@ nav a:hover {
     min-width: 190px;
 }
 
-.match-tools select {
-    min-width: 180px;
-}
+.match-tools select { min-width: 180px; }
 
 .grid {
     display: grid;
@@ -232,9 +212,7 @@ nav a:hover {
     cursor: pointer;
 }
 
-.card button:hover {
-    background: white;
-}
+.card button:hover { background: white; }
 
 .message {
     color: var(--muted);
@@ -259,53 +237,35 @@ nav a:hover {
     font-weight: bold;
 }
 
-.league-card:hover {
-    border-color: var(--green);
+.league-card:hover { border-color: var(--green); }
+
+.about-box, .contact-box {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 950px;
 }
 
-/* CONTACT SECTION */
-.contact-section {
-    background: linear-gradient(135deg, #102d4c, #091a2e);
-    border-top: 1px solid var(--border);
-    text-align: center;
-    padding: 60px 7%;
-}
-
-.contact-section h2 {
-    font-size: 28px;
+.about-box p, .contact-box p {
+    color: var(--muted);
     margin-bottom: 15px;
 }
 
-.contact-section h2 span {
+.contact-box a {
     color: var(--green);
-}
-
-.contact-section p {
-    color: var(--muted);
-    margin: 12px 0;
-}
-
-.contact-email {
-    display: inline-block;
-    margin: 15px 0;
-    padding: 13px 22px;
-    background: var(--green);
-    color: #071426;
-    border-radius: 6px;
     text-decoration: none;
     font-weight: bold;
 }
 
-.contact-email:hover {
-    background: white;
-}
+.contact-box a:hover { text-decoration: underline; }
 
 footer {
     background: #091a2e;
     padding: 35px 7%;
     text-align: center;
     color: var(--muted);
-    border-top: 1px solid var(--border);
+    margin-top: 35px;
 }
 
 footer .logo {
@@ -313,14 +273,7 @@ footer .logo {
     color: white;
 }
 
-footer .logo span {
-    color: var(--green);
-}
-
-footer a {
-    color: var(--green);
-    text-decoration: none;
-}
+footer .logo span { color: var(--green); }
 
 @media(max-width: 650px) {
     header {
@@ -333,29 +286,11 @@ footer a {
         justify-content: center;
     }
 
-    nav a {
-        font-size: 12px;
-    }
+    nav a { font-size: 12px; }
 
-    .hero h1 {
-        font-size: 32px;
-    }
+    .container { padding: 35px 5%; }
 
-    .container {
-        padding: 35px 5%;
-    }
-
-    .player video {
-        min-height: 200px;
-    }
-
-    .contact-section {
-        padding: 40px 5%;
-    }
-
-    .contact-email {
-        font-size: 14px;
-    }
+    .about-box, .contact-box { padding: 22px; }
 }
 </style>
 </head>
@@ -370,13 +305,14 @@ footer a {
         <a href="#live">Live TV</a>
         <a href="#matches">Matches</a>
         <a href="#leagues">Leagues</a>
+        <a href="#about">About</a>
         <a href="#contact">Contact</a>
     </nav>
 </header>
 
 <section class="hero" id="home">
     <h1>FOOTBALL IS BETTER <span>LIVE.</span></h1>
-    <p>Your home of football entertainment.</p>
+    <p>Your home of football fixtures, updates and entertainment.</p>
     <a href="#matches" class="primary-btn">Explore Matches</a>
 </section>
 
@@ -392,12 +328,13 @@ footer a {
         </video>
 
         <div class="player-info">
-            <div class="live">● STREAMING CENTER</div>
+            <div class="live">● GOALZONE STREAMING CENTER</div>
             <h3>GoalZone HD Player</h3>
             <p class="muted">
-                Your football viewing experience starts here.
-                Authorised match broadcasts will appear here
-                once a streaming partnership is established.
+                Our streaming player is being prepared.
+                Authorised football broadcasts will appear here
+                when official broadcasting partnerships are secured.
+                The current video is only a demonstration.
             </p>
         </div>
     </div>
@@ -440,56 +377,58 @@ footer a {
         <div class="league-card">🏆 Champions League</div>
     </div>
 </section>
-    <section id="about" style="padding:60px 20px; text-align:center; max-width:1000px; margin:auto;">
-    <h2>About GoalZone</h2>
-    <p>
-        GoalZone is a football platform built for passionate football fans.
-        Our mission is to bring football information, match fixtures,
-        results and authorised video content together in one convenient place.
-    </p>
-    <p>
-        We aim to connect fans with the beautiful game through reliable
-        updates and partnerships with recognised football broadcasters
-        and rights holders.
-    </p>
-    <p>
-        Our vision is to grow into a trusted digital destination for
-        football fans across Kenya and beyond.
-    </p>
+
+<section class="container" id="about">
+    <h2 class="heading">ABOUT <span>GOALZONE</span></h2>
+
+    <div class="about-box">
+        <p>
+            GoalZone is a football platform created for passionate
+            football fans. Our mission is to bring football information,
+            match fixtures, results and authorised video content
+            together in one convenient place.
+        </p>
+
+        <p>
+            We aim to connect fans with the beautiful game through
+            reliable football updates and partnerships with recognised
+            broadcasters and football rights holders.
+        </p>
+
+        <p>
+            Our vision is to grow into a trusted digital destination
+            for football fans across Kenya and beyond.
+        </p>
+    </div>
 </section>
 
-<!-- CONTACT SECTION -->
-<section class="contact-section" id="contact">
-    <h2>CONTACT <span>GOALZONE</span></h2>
+<section class="container" id="contact">
+    <h2 class="heading">CONTACT <span>GOALZONE</span></h2>
 
-    <p>
-        Have a question, partnership proposal or broadcasting opportunity?
-    </p>
+    <div class="contact-box">
+        <p>
+            Have a question, business proposal or partnership idea?
+            We would love to hear from you.
+        </p>
 
-    <p>
-        We welcome enquiries from football fans, broadcasters,
-        sponsors and potential business partners.
-    </p>
+        <p>
+            Email:
+            <a href="mailto:reubenmoturi254@gmail.com?subject=GoalZone%20Enquiry">
+                reubenmoturi254@gmail.com
+            </a>
+        </p>
 
-    <a
-        class="contact-email"
-        href="mailto:reubenmoturi254@gmail.com?subject=GoalZone%20Enquiry">
-        ✉ Contact GoalZone
-    </a>
-
-    <p>reubenmoturi254@gmail.com</p>
+        <p>
+            For broadcasting and business partnerships, please contact
+            us using the email above.
+        </p>
+    </div>
 </section>
 
 <footer>
     <div class="logo">⚽ GOAL<span>ZONE</span></div>
-
-    <p>Your home of football entertainment.</p>
-
-    <p style="margin-top:12px;">
-        <a href="#contact">Contact Us</a>
-    </p>
-
-    <p style="margin-top:15px;font-size:12px;">
+    <p>Your home of football fixtures, updates and entertainment.</p>
+    <p style="margin-top:15px;font-size:12px">
         © 2026 GoalZone. All rights reserved.
     </p>
 </footer>
@@ -515,8 +454,15 @@ async function loadGoalZoneFixtures() {
         const data = await response.json();
 
         allMatches = (data.matches || [])
-            .filter(match => match.date && match.home && match.away)
-            .sort((a, b) => new Date(a.date) - new Date(b.date));
+            .filter(match =>
+                match.date &&
+                match.home &&
+                match.away &&
+                new Date(match.date).getTime() >= Date.now()
+            )
+            .sort((a, b) =>
+                new Date(a.date) - new Date(b.date)
+            );
 
         if (allMatches.length === 0) {
             matchGrid.innerHTML =
@@ -566,7 +512,7 @@ function displayMatches() {
 
         const league = document.createElement("div");
         league.className = "league";
-        league.textContent = match.league;
+        league.textContent = match.league || "Football";
 
         const status = document.createElement("div");
         status.className = "live";
@@ -592,7 +538,7 @@ function displayMatches() {
 
         button.addEventListener("click", () => {
             alert(
-                "An authorised broadcast for this match is not connected yet. Please check again later."
+                "An authorised broadcast for this match is not connected yet."
             );
         });
 
