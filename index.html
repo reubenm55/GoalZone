@@ -1,1 +1,317 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GoalZone | Live Football</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #080d16;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #101a29;
+    padding: 20px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #243349;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #21e676;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #21e676;
+}
+
+.hero {
+    padding: 55px 6%;
+    background: linear-gradient(120deg, #102a26, #101a29, #080d16);
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero h1 span {
+    color: #21e676;
+}
+
+.hero p {
+    color: #b4c2d2;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.btn {
+    background: #21e676;
+    color: #07120c;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #16c960;
+}
+
+.container {
+    padding: 35px 6%;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 22px;
+}
+
+.section-title span {
+    color: #21e676;
+}
+
+.live-label {
+    color: #ff4545;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.player {
+    background: #111b2a;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #26364a;
+}
+
+video {
+    width: 100%;
+    aspect-ratio: 16/9;
+    display: block;
+    background: #05080d;
+}
+
+.player-info {
+    padding: 20px;
+}
+
+.player-info h3 {
+    margin-bottom: 10px;
+}
+
+.muted {
+    color: #9aaabe;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.match-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 18px;
+}
+
+.match-card {
+    background: #111b2a;
+    border: 1px solid #26364a;
+    padding: 22px;
+    border-radius: 9px;
+    text-align: center;
+}
+
+.match-card:hover {
+    border-color: #21e676;
+    transform: translateY(-3px);
+    transition: 0.2s;
+}
+
+.teams {
+    font-size: 19px;
+    font-weight: bold;
+    margin: 18px 0;
+}
+
+.match-time {
+    color: #21e676;
+    font-size: 13px;
+}
+
+.leagues {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.league {
+    padding: 22px;
+    background: #111b2a;
+    border: 1px solid #26364a;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #101a29;
+    color: #8c9bad;
+    margin-top: 35px;
+}
+
+@media(max-width: 600px) {
+    header {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    nav a {
+        margin: 0 7px;
+        font-size: 12px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">⚽ GOALZONE</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#live">Live</a>
+        <a href="#matches">Matches</a>
+        <a href="#leagues">Leagues</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h1>YOUR HOME OF <span>LIVE FOOTBALL</span></h1>
+
+    <p>
+        Experience the beautiful game in one place.
+        Follow your favourite teams and enjoy football
+        through authorised live broadcasts.
+    </p>
+
+    <a href="#live" class="btn">EXPLORE LIVE FOOTBALL</a>
+</section>
+
+<section class="container" id="live">
+
+    <h2 class="section-title">
+        <span>●</span> LIVE STREAMING
+    </h2>
+
+    <div class="live-label">● LIVE MATCH CENTER</div>
+
+    <div class="player">
+
+        <video id="footballPlayer" controls playsinline
+            poster="">
+        </video>
+
+        <div class="player-info">
+            <h3>GoalZone Live Player</h3>
+
+            <p class="muted">
+                Welcome to GoalZone. Authorised live match
+                broadcasts will appear here when connected.
+                No live broadcast is currently available.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="container" id="matches">
+
+    <h2 class="section-title">
+        UPCOMING <span>MATCHES</span>
+    </h2>
+
+    <div class="match-grid">
+
+        <div class="match-card">
+            <div class="match-time">PREMIER LEAGUE</div>
+            <div class="teams">Chelsea vs Liverpool</div>
+            <p class="muted">Fixture information coming soon</p>
+        </div>
+
+        <div class="match-card">
+            <div class="match-time">LA LIGA</div>
+            <div class="teams">Real Madrid vs Barcelona</div>
+            <p class="muted">Fixture information coming soon</p>
+        </div>
+
+        <div class="match-card">
+            <div class="match-time">SERIE A</div>
+            <div class="teams">Inter vs AC Milan</div>
+            <p class="muted">Fixture information coming soon</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="container" id="leagues">
+
+    <h2 class="section-title">
+        POPULAR <span>LEAGUES</span>
+    </h2>
+
+    <div class="leagues">
+
+        <div class="league">🏆 Premier League</div>
+        <div class="league">🏆 La Liga</div>
+        <div class="league">🏆 Bundesliga</div>
+        <div class="league">🏆 Serie A</div>
+        <div class="league">🏆 Ligue 1</div>
+        <div class="league">🏆 Champions League</div>
+
+    </div>
+
+</section>
+
+<footer>
+    <div class="logo">⚽ GOALZONE</div>
+    <p style="margin-top:12px;">
+        Your home of live football.
+    </p>
+    <p style="margin-top:10px;font-size:12px;">
+        © 2026 GoalZone. All rights reserved.
+    </p>
+</footer>
+
+</body>
+</html>
+
