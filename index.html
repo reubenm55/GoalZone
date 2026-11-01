@@ -16,14 +16,22 @@
     --muted:#9db0c6;
     --green:#32d98a;
 }
-* {margin:0;padding:0;box-sizing:border-box}
-html {scroll-behavior:smooth}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html { scroll-behavior:smooth; }
+
 body {
     font-family:Arial,sans-serif;
     background:var(--bg);
     color:var(--white);
     line-height:1.6;
 }
+
 header {
     background:#091a2e;
     padding:18px 6%;
@@ -37,24 +45,47 @@ header {
     z-index:10;
     border-bottom:1px solid var(--border);
 }
-.logo {font-size:25px;font-weight:900}
-.logo span {color:var(--green)}
-nav {display:flex;gap:18px;flex-wrap:wrap}
+
+.logo {
+    font-size:25px;
+    font-weight:900;
+}
+
+.logo span { color:var(--green); }
+
+nav {
+    display:flex;
+    gap:18px;
+    flex-wrap:wrap;
+}
+
 nav a {
     color:white;
     text-decoration:none;
     font-weight:bold;
     font-size:14px;
 }
-nav a:hover {color:var(--green)}
+
+nav a:hover { color:var(--green); }
+
 .hero {
     text-align:center;
     padding:85px 6%;
     background:linear-gradient(135deg,#102d4c,#071426);
 }
-.hero h1 {font-size:clamp(32px,5vw,50px);line-height:1.2}
-.hero h1 span {color:var(--green)}
-.hero p {color:var(--muted);margin:18px 0 25px}
+
+.hero h1 {
+    font-size:clamp(32px,5vw,50px);
+    line-height:1.2;
+}
+
+.hero h1 span { color:var(--green); }
+
+.hero p {
+    color:var(--muted);
+    margin:18px 0 25px;
+}
+
 .btn {
     display:inline-block;
     padding:12px 24px;
@@ -64,58 +95,98 @@ nav a:hover {color:var(--green)}
     text-decoration:none;
     font-weight:bold;
 }
-.container {padding:55px 7%}
-.heading {font-size:26px;margin-bottom:25px}
-.heading span {color:var(--green)}
+
+.container { padding:55px 7%; }
+
+.heading {
+    font-size:26px;
+    margin-bottom:25px;
+}
+
+.heading span { color:var(--green); }
+
 .player {
     background:var(--panel);
     border:1px solid var(--border);
     border-radius:10px;
     overflow:hidden;
 }
+
 .player video {
     width:100%;
     display:block;
     aspect-ratio:16/9;
     background:#000;
 }
-.player-info {padding:22px}
-.muted {color:var(--muted);font-size:14px}
-.live {color:var(--green);font-size:12px;font-weight:bold}
+
+.player-info { padding:22px; }
+
+.muted {
+    color:var(--muted);
+    font-size:14px;
+}
+
+.live {
+    color:var(--green);
+    font-size:12px;
+    font-weight:bold;
+}
+
 .match-tools {
     display:flex;
     gap:12px;
     flex-wrap:wrap;
     margin-bottom:25px;
 }
-.match-tools input,.match-tools select {
+
+.match-tools input,
+.match-tools select {
     padding:12px;
     background:var(--panel);
     color:white;
     border:1px solid var(--border);
     border-radius:5px;
 }
-.match-tools input {flex:1;min-width:190px}
-.match-tools select {min-width:180px}
+
+.match-tools input {
+    flex:1;
+    min-width:190px;
+}
+
+.match-tools select { min-width:180px; }
+
 .grid {
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
     gap:18px;
 }
+
 .card {
     background:var(--panel);
     padding:22px;
     border:1px solid var(--border);
     border-radius:9px;
 }
-.card:hover {border-color:var(--green)}
+
+.card:hover { border-color:var(--green); }
+
 .league {
     color:var(--green);
     font-size:12px;
     font-weight:bold;
 }
-.teams {font-size:17px;font-weight:bold;margin:18px 0}
-.time {font-size:13px;color:var(--muted)}
+
+.teams {
+    font-size:17px;
+    font-weight:bold;
+    margin:18px 0;
+}
+
+.time {
+    font-size:13px;
+    color:var(--muted);
+}
+
 .card button {
     width:100%;
     padding:11px;
@@ -127,6 +198,7 @@ nav a:hover {color:var(--green)}
     font-weight:bold;
     cursor:pointer;
 }
+
 .message {
     background:var(--panel);
     padding:20px;
@@ -134,11 +206,13 @@ nav a:hover {color:var(--green)}
     color:var(--muted);
     grid-column:1/-1;
 }
+
 .leagues {
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(145px,1fr));
     gap:15px;
 }
+
 .league-card {
     padding:22px;
     text-align:center;
@@ -147,6 +221,7 @@ nav a:hover {color:var(--green)}
     border-radius:8px;
     font-weight:bold;
 }
+
 .info-section {
     background:var(--panel);
     border:1px solid var(--border);
@@ -154,28 +229,37 @@ nav a:hover {color:var(--green)}
     padding:30px;
     max-width:1000px;
 }
+
 .info-section p {
     color:var(--muted);
     margin-bottom:15px;
 }
-.info-section p:last-child {margin-bottom:0}
+
+.info-section p:last-child { margin-bottom:0; }
+
 .info-section a {
     color:var(--green);
     text-decoration:none;
     font-weight:bold;
 }
+
 footer {
     background:#091a2e;
     text-align:center;
     padding:35px 6%;
     color:var(--muted);
 }
-footer .logo {color:white;margin-bottom:10px}
+
+footer .logo {
+    color:white;
+    margin-bottom:10px;
+}
+
 @media(max-width:650px) {
-    header {justify-content:center}
-    nav {justify-content:center;gap:12px}
-    nav a {font-size:12px}
-    .container {padding:38px 5%}
+    header { justify-content:center; }
+    nav { justify-content:center; gap:12px; }
+    nav a { font-size:12px; }
+    .container { padding:38px 5%; }
 }
 </style>
 </head>
@@ -202,11 +286,13 @@ footer .logo {color:white;margin-bottom:10px}
 
 <section class="container" id="live">
     <h2 class="heading">● <span>LIVE</span> STREAMING</h2>
+
     <div class="player">
         <video controls playsinline>
             <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
             Your browser does not support video.
         </video>
+
         <div class="player-info">
             <div class="live">● GOALZONE STREAMING CENTER</div>
             <h3>GoalZone HD Player</h3>
@@ -221,8 +307,11 @@ footer .logo {color:white;margin-bottom:10px}
 
 <section class="container" id="matches">
     <h2 class="heading">UPCOMING <span>MATCHES</span></h2>
+
     <div class="match-tools">
-        <input id="matchSearch" type="search" placeholder="Search teams or competitions...">
+        <input id="matchSearch" type="search"
+               placeholder="Search teams or competitions...">
+
         <select id="leagueFilter">
             <option value="all">All competitions</option>
             <option value="Premier League">Premier League</option>
@@ -233,6 +322,7 @@ footer .logo {color:white;margin-bottom:10px}
             <option value="Champions League">Champions League</option>
         </select>
     </div>
+
     <div class="grid" id="matchGrid">
         <div class="message">Loading upcoming matches...</div>
     </div>
@@ -240,6 +330,7 @@ footer .logo {color:white;margin-bottom:10px}
 
 <section class="container" id="leagues">
     <h2 class="heading">POPULAR <span>LEAGUES</span></h2>
+
     <div class="leagues">
         <div class="league-card">🏆 Premier League</div>
         <div class="league-card">🏆 La Liga</div>
@@ -253,21 +344,25 @@ footer .logo {color:white;margin-bottom:10px}
 <!-- ABOUT GOALZONE -->
 <section class="container" id="about">
     <h2 class="heading">ABOUT <span>GOALZONE</span></h2>
+
     <div class="info-section">
         <p>
             Welcome to GoalZone, a football platform created for
             passionate football fans.
         </p>
+
         <p>
             Our mission is to bring football information, upcoming
             fixtures, match updates and authorised video content
             together in one convenient place.
         </p>
+
         <p>
             We aim to connect football fans with the beautiful game
             through reliable updates and partnerships with recognised
             broadcasters and football rights holders.
         </p>
+
         <p>
             Our vision is to become a trusted digital destination
             for football fans across Kenya and beyond.
@@ -278,17 +373,20 @@ footer .logo {color:white;margin-bottom:10px}
 <!-- CONTACT GOALZONE -->
 <section class="container" id="contact">
     <h2 class="heading">CONTACT <span>GOALZONE</span></h2>
+
     <div class="info-section">
         <p>
             Have a question, business proposal or partnership idea?
             We would love to hear from you.
         </p>
+
         <p>
             Email:
             <a href="mailto:reubenmoturi254@gmail.com?subject=GoalZone%20Enquiry">
                 reubenmoturi254@gmail.com
             </a>
         </p>
+
         <p>
             For broadcasting partnerships, business enquiries
             and general questions, contact our team by email.
@@ -314,7 +412,10 @@ let allMatches = [];
 async function loadFixtures() {
     try {
         const response = await fetch("./fixtures.json?t=" + Date.now());
-        if (!response.ok) throw new Error("Fixtures file unavailable");
+
+        if (!response.ok) {
+            throw new Error("Fixtures file unavailable");
+        }
 
         const data = await response.json();
 
@@ -323,8 +424,10 @@ async function loadFixtures() {
             .sort((a,b) => new Date(a.date) - new Date(b.date));
 
         displayMatches();
+
     } catch (error) {
         console.error(error);
+
         matchGrid.innerHTML =
             '<div class="message">Unable to load fixtures. Please try again later.</div>';
     }
@@ -336,7 +439,9 @@ function displayMatches() {
 
     const filtered = allMatches.filter(match => {
         const league = match.league || "Football";
-        const text = `${match.home} ${match.away} ${league}`.toLowerCase();
+
+        const text =
+            `${match.home} ${match.away} ${league}`.toLowerCase();
 
         return text.includes(search) &&
             (selected === "all" || league === selected);
@@ -368,6 +473,7 @@ function displayMatches() {
 
         const time = document.createElement("div");
         time.className = "time";
+
         time.textContent = new Date(match.date).toLocaleString("en-KE", {
             dateStyle:"medium",
             timeStyle:"short",
@@ -376,6 +482,7 @@ function displayMatches() {
 
         const button = document.createElement("button");
         button.textContent = "Watch Live";
+
         button.addEventListener("click", () => {
             alert("An authorised broadcast is not connected yet.");
         });
