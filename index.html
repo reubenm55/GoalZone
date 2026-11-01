@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="GoalZone football fixtures, updates and authorised broadcasts.">
+<meta name="description" content="GoalZone - Football fixtures, updates and authorised broadcasts.">
 <title>GoalZone | Football</title>
 
 <style>
@@ -13,7 +13,7 @@
     --panel:#10243c;
     --border:#29415d;
     --white:#fff;
-    --muted:#9db0c6;
+    --muted:#a9bacd;
     --green:#32d98a;
 }
 
@@ -29,7 +29,7 @@ body {
     font-family:Arial,sans-serif;
     background:var(--bg);
     color:var(--white);
-    line-height:1.6;
+    line-height:1.7;
 }
 
 header {
@@ -42,7 +42,7 @@ header {
     gap:15px;
     position:sticky;
     top:0;
-    z-index:10;
+    z-index:100;
     border-bottom:1px solid var(--border);
 }
 
@@ -55,27 +55,27 @@ header {
 
 nav {
     display:flex;
-    gap:18px;
+    gap:17px;
     flex-wrap:wrap;
 }
 
 nav a {
     color:white;
     text-decoration:none;
-    font-weight:bold;
     font-size:14px;
+    font-weight:bold;
 }
 
 nav a:hover { color:var(--green); }
 
 .hero {
     text-align:center;
-    padding:85px 6%;
+    padding:90px 6%;
     background:linear-gradient(135deg,#102d4c,#071426);
 }
 
 .hero h1 {
-    font-size:clamp(32px,5vw,50px);
+    font-size:clamp(32px,5vw,52px);
     line-height:1.2;
 }
 
@@ -83,23 +83,26 @@ nav a:hover { color:var(--green); }
 
 .hero p {
     color:var(--muted);
-    margin:18px 0 25px;
+    margin:20px 0 28px;
 }
 
 .btn {
     display:inline-block;
-    padding:12px 24px;
     background:var(--green);
     color:#071426;
+    padding:13px 25px;
     border-radius:5px;
     text-decoration:none;
     font-weight:bold;
 }
 
-.container { padding:55px 7%; }
+.container {
+    padding:60px 7%;
+    scroll-margin-top:90px;
+}
 
 .heading {
-    font-size:26px;
+    font-size:27px;
     margin-bottom:25px;
 }
 
@@ -113,13 +116,13 @@ nav a:hover { color:var(--green); }
 }
 
 .player video {
-    width:100%;
     display:block;
+    width:100%;
     aspect-ratio:16/9;
     background:#000;
 }
 
-.player-info { padding:22px; }
+.player-info { padding:23px; }
 
 .muted {
     color:var(--muted);
@@ -134,14 +137,14 @@ nav a:hover { color:var(--green); }
 
 .match-tools {
     display:flex;
-    gap:12px;
     flex-wrap:wrap;
+    gap:12px;
     margin-bottom:25px;
 }
 
 .match-tools input,
 .match-tools select {
-    padding:12px;
+    padding:13px;
     background:var(--panel);
     color:white;
     border:1px solid var(--border);
@@ -150,7 +153,7 @@ nav a:hover { color:var(--green); }
 
 .match-tools input {
     flex:1;
-    min-width:190px;
+    min-width:200px;
 }
 
 .match-tools select { min-width:180px; }
@@ -189,7 +192,7 @@ nav a:hover { color:var(--green); }
 
 .card button {
     width:100%;
-    padding:11px;
+    padding:12px;
     margin-top:17px;
     background:var(--green);
     color:#071426;
@@ -222,25 +225,58 @@ nav a:hover { color:var(--green); }
     font-weight:bold;
 }
 
-.info-section {
+/* ABOUT GOALZONE */
+#about {
+    display:block !important;
+    background:#0b1d33;
+    padding:70px 7%;
+    scroll-margin-top:90px;
+}
+
+.about-content {
+    max-width:1000px;
+    margin:auto;
+    padding:35px;
+    background:var(--panel);
+    border:1px solid var(--border);
+    border-left:5px solid var(--green);
+    border-radius:10px;
+}
+
+.about-content h3 {
+    color:var(--green);
+    font-size:23px;
+    margin-bottom:18px;
+}
+
+.about-content p {
+    color:var(--muted);
+    margin-bottom:17px;
+}
+
+/* CONTACT */
+#contact {
+    display:block !important;
+    scroll-margin-top:90px;
+}
+
+.contact-content {
     background:var(--panel);
     border:1px solid var(--border);
     border-radius:10px;
     padding:30px;
-    max-width:1000px;
+    max-width:950px;
 }
 
-.info-section p {
+.contact-content p {
     color:var(--muted);
     margin-bottom:15px;
 }
 
-.info-section p:last-child { margin-bottom:0; }
-
-.info-section a {
+.contact-content a {
     color:var(--green);
-    text-decoration:none;
     font-weight:bold;
+    text-decoration:none;
 }
 
 footer {
@@ -259,7 +295,9 @@ footer .logo {
     header { justify-content:center; }
     nav { justify-content:center; gap:12px; }
     nav a { font-size:12px; }
-    .container { padding:38px 5%; }
+    .container { padding:40px 5%; }
+    #about { padding:45px 5%; }
+    .about-content { padding:22px; }
 }
 </style>
 </head>
@@ -268,12 +306,13 @@ footer .logo {
 
 <header>
     <div class="logo">⚽ GOAL<span>ZONE</span></div>
+
     <nav>
         <a href="#home">Home</a>
         <a href="#live">Live TV</a>
         <a href="#matches">Matches</a>
         <a href="#leagues">Leagues</a>
-        <a href="#about">About</a>
+        <a href="#about">About Us</a>
         <a href="#contact">Contact</a>
     </nav>
 </header>
@@ -298,7 +337,7 @@ footer .logo {
             <h3>GoalZone HD Player</h3>
             <p class="muted">
                 Authorised football broadcasts will be available here
-                when official broadcasting partnerships are secured.
+                once official broadcasting partnerships are secured.
                 The current video is only a demonstration.
             </p>
         </div>
@@ -341,40 +380,53 @@ footer .logo {
     </div>
 </section>
 
-<!-- ABOUT GOALZONE -->
-<section class="container" id="about">
-    <h2 class="heading">ABOUT <span>GOALZONE</span></h2>
+<!-- ABOUT US SECTION -->
+<section id="about">
+    <div style="max-width:1000px;margin:auto;">
+        <h2 class="heading">ABOUT <span>GOALZONE</span></h2>
 
-    <div class="info-section">
-        <p>
-            Welcome to GoalZone, a football platform created for
-            passionate football fans.
-        </p>
+        <div class="about-content">
+            <h3>Welcome to GoalZone!</h3>
 
-        <p>
-            Our mission is to bring football information, upcoming
-            fixtures, match updates and authorised video content
-            together in one convenient place.
-        </p>
+            <p>
+                GoalZone is an independent football platform
+                created for passionate football fans in Kenya
+                and around the world.
+            </p>
 
-        <p>
-            We aim to connect football fans with the beautiful game
-            through reliable updates and partnerships with recognised
-            broadcasters and football rights holders.
-        </p>
+            <p>
+                Our mission is to make following football easier
+                by bringing match fixtures, results, football
+                updates and authorised video content together
+                in one convenient place.
+            </p>
 
-        <p>
-            Our vision is to become a trusted digital destination
-            for football fans across Kenya and beyond.
-        </p>
+            <p>
+                We are committed to connecting fans with reliable
+                football information and working with recognised
+                broadcasters and football rights holders.
+            </p>
+
+            <p>
+                Our vision is to become a trusted digital
+                destination for football fans across Kenya
+                and beyond.
+            </p>
+
+            <p>
+                <strong style="color:white;">
+                    GoalZone — Bringing Football Closer to You.
+                </strong>
+            </p>
+        </div>
     </div>
 </section>
 
-<!-- CONTACT GOALZONE -->
+<!-- CONTACT SECTION -->
 <section class="container" id="contact">
     <h2 class="heading">CONTACT <span>GOALZONE</span></h2>
 
-    <div class="info-section">
+    <div class="contact-content">
         <p>
             Have a question, business proposal or partnership idea?
             We would love to hear from you.
@@ -389,7 +441,7 @@ footer .logo {
 
         <p>
             For broadcasting partnerships, business enquiries
-            and general questions, contact our team by email.
+            and general questions, please contact us by email.
         </p>
     </div>
 </section>
@@ -397,7 +449,7 @@ footer .logo {
 <footer>
     <div class="logo">⚽ GOAL<span>ZONE</span></div>
     <p>Your home of football fixtures, updates and entertainment.</p>
-    <p style="margin-top:15px;font-size:12px">
+    <p style="margin-top:15px;font-size:12px;">
         © 2026 GoalZone. All rights reserved.
     </p>
 </footer>
