@@ -59,7 +59,8 @@ header {
 
 nav {
     display: flex;
-    gap: 24px;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 nav a {
@@ -123,6 +124,7 @@ nav a:hover {
     border-radius: 10px;
     overflow: hidden;
     width: 100%;
+    display: block;
 }
 
 .player video {
@@ -261,12 +263,49 @@ nav a:hover {
     border-color: var(--green);
 }
 
+/* CONTACT SECTION */
+.contact-section {
+    background: linear-gradient(135deg, #102d4c, #091a2e);
+    border-top: 1px solid var(--border);
+    text-align: center;
+    padding: 60px 7%;
+}
+
+.contact-section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.contact-section h2 span {
+    color: var(--green);
+}
+
+.contact-section p {
+    color: var(--muted);
+    margin: 12px 0;
+}
+
+.contact-email {
+    display: inline-block;
+    margin: 15px 0;
+    padding: 13px 22px;
+    background: var(--green);
+    color: #071426;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-email:hover {
+    background: white;
+}
+
 footer {
     background: #091a2e;
     padding: 35px 7%;
     text-align: center;
     color: var(--muted);
-    margin-top: 35px;
+    border-top: 1px solid var(--border);
 }
 
 footer .logo {
@@ -278,6 +317,11 @@ footer .logo span {
     color: var(--green);
 }
 
+footer a {
+    color: var(--green);
+    text-decoration: none;
+}
+
 @media(max-width: 650px) {
     header {
         flex-direction: column;
@@ -286,7 +330,6 @@ footer .logo span {
 
     nav {
         gap: 13px;
-        flex-wrap: wrap;
         justify-content: center;
     }
 
@@ -305,6 +348,14 @@ footer .logo span {
     .player video {
         min-height: 200px;
     }
+
+    .contact-section {
+        padding: 40px 5%;
+    }
+
+    .contact-email {
+        font-size: 14px;
+    }
 }
 </style>
 </head>
@@ -319,12 +370,13 @@ footer .logo span {
         <a href="#live">Live TV</a>
         <a href="#matches">Matches</a>
         <a href="#leagues">Leagues</a>
+        <a href="#contact">Contact</a>
     </nav>
 </header>
 
 <section class="hero" id="home">
     <h1>FOOTBALL IS BETTER <span>LIVE.</span></h1>
-    <p>Your home of premium football entertainment.</p>
+    <p>Your home of football entertainment.</p>
     <a href="#matches" class="primary-btn">Explore Matches</a>
 </section>
 
@@ -343,9 +395,9 @@ footer .logo span {
             <div class="live">● STREAMING CENTER</div>
             <h3>GoalZone HD Player</h3>
             <p class="muted">
-                Your live football experience starts here.
+                Your football viewing experience starts here.
                 Authorised match broadcasts will appear here
-                when connected.
+                once a streaming partnership is established.
             </p>
         </div>
     </div>
@@ -389,10 +441,38 @@ footer .logo span {
     </div>
 </section>
 
+<!-- CONTACT SECTION -->
+<section class="contact-section" id="contact">
+    <h2>CONTACT <span>GOALZONE</span></h2>
+
+    <p>
+        Have a question, partnership proposal or broadcasting opportunity?
+    </p>
+
+    <p>
+        We welcome enquiries from football fans, broadcasters,
+        sponsors and potential business partners.
+    </p>
+
+    <a
+        class="contact-email"
+        href="mailto:reubenmoturi254@gmail.com?subject=GoalZone%20Enquiry">
+        ✉ Contact GoalZone
+    </a>
+
+    <p>reubenmoturi254@gmail.com</p>
+</section>
+
 <footer>
     <div class="logo">⚽ GOAL<span>ZONE</span></div>
-    <p>Your home of premium football entertainment.</p>
-    <p style="margin-top:15px;font-size:12px">
+
+    <p>Your home of football entertainment.</p>
+
+    <p style="margin-top:12px;">
+        <a href="#contact">Contact Us</a>
+    </p>
+
+    <p style="margin-top:15px;font-size:12px;">
         © 2026 GoalZone. All rights reserved.
     </p>
 </footer>
@@ -495,7 +575,7 @@ function displayMatches() {
 
         button.addEventListener("click", () => {
             alert(
-                "An authorised broadcast for this match is not connected yet."
+                "An authorised broadcast for this match is not connected yet. Please check again later."
             );
         });
 
