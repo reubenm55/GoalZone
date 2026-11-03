@@ -1,13 +1,6 @@
 {
-  "updated": "2026-11-02T14:00:25.444025+00:00",
+  "updated": "2026-11-03T00:07:52.613035+00:00",
   "matches": [
-    {
-      "league": "Premier League",
-      "home": "Newcastle United FC",
-      "away": "Everton FC",
-      "date": "2026-11-02T20:00:00Z",
-      "status": "TIMED"
-    },
     {
       "league": "Premier League",
       "home": "Everton FC",
@@ -282,10 +275,10 @@
       "status": "TIMED"
     },
     {
-      "league": "La Liga",
-      "home": "RC Deportivo La Coru\u00f1a",
-      "away": "CA Osasuna",
-      "date": "2026-11-02T20:00:00Z",
+      "league": "Premier League",
+      "home": "Tottenham Hotspur FC",
+      "away": "Fulham FC",
+      "date": "2026-12-03T20:00:00Z",
       "status": "TIMED"
     },
     {
@@ -689,20 +682,6 @@
     },
     {
       "league": "Serie A",
-      "home": "US Sassuolo Calcio",
-      "away": "ACF Fiorentina",
-      "date": "2026-11-02T17:30:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Serie A",
-      "home": "Atalanta BC",
-      "away": "Parma Calcio 1913",
-      "date": "2026-11-02T19:45:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Serie A",
       "home": "Venezia FC",
       "away": "Udinese Calcio",
       "date": "2026-11-06T19:45:00Z",
@@ -909,13 +888,6 @@
       "home": "Cagliari Calcio",
       "away": "AC Milan",
       "date": "2026-11-30T19:45:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Ligue 1",
-      "home": "FC Lorient",
-      "away": "Stade Brestois 29",
-      "date": "2026-11-02T19:45:00Z",
       "status": "TIMED"
     },
     {
