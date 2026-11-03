@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T13:09:08.358150+00:00",
+  "updated": "2026-11-03T22:39:05.411856+00:00",
   "matches": [
     {
       "league": "Premier League",
@@ -1077,69 +1077,6 @@
       "home": "Olympique Lyonnais",
       "away": "AS Monaco FC",
       "date": "2026-11-29T19:45:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Champions League",
-      "home": "FK Shakhtar Donetsk",
-      "away": "Sporting Clube de Portugal",
-      "date": "2026-11-03T17:45:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Champions League",
-      "home": "Galatasaray SK",
-      "away": "VfB Stuttgart",
-      "date": "2026-11-03T17:45:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Champions League",
-      "home": "Feyenoord Rotterdam",
-      "away": "FC Internazionale Milano",
-      "date": "2026-11-03T20:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Champions League",
-      "home": "FC Barcelona",
-      "away": "Aston Villa FC",
-      "date": "2026-11-03T20:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Champions League",
-      "home": "Club Atl\u00e9tico de Madrid",
-      "away": "FC Bayern M\u00fcnchen",
-      "date": "2026-11-03T20:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Champions League",
-      "home": "Villarreal CF",
-      "away": "Paris Saint-Germain FC",
-      "date": "2026-11-03T20:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Champions League",
-      "home": "Manchester United FC",
-      "away": "AS Roma",
-      "date": "2026-11-03T20:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Champions League",
-      "home": "FK Bod\u00f8/Glimt",
-      "away": "Lille OSC",
-      "date": "2026-11-03T20:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Champions League",
-      "home": "LASK Linz",
-      "away": "\u0160K Slovan Bratislava",
-      "date": "2026-11-03T20:00:00Z",
       "status": "TIMED"
     },
     {
