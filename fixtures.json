@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T22:39:05.411856+00:00",
+  "updated": "2026-11-04T03:38:54.774768+00:00",
   "matches": [
     {
       "league": "Premier League",
@@ -681,6 +681,69 @@
       "status": "TIMED"
     },
     {
+      "league": "Bundesliga",
+      "home": "1. FC Union Berlin",
+      "away": "Hamburger SV",
+      "date": "2026-12-05T00:00:00Z",
+      "status": "SCHEDULED"
+    },
+    {
+      "league": "Bundesliga",
+      "home": "FC Schalke 04",
+      "away": "Borussia Dortmund",
+      "date": "2026-12-05T00:00:00Z",
+      "status": "SCHEDULED"
+    },
+    {
+      "league": "Bundesliga",
+      "home": "Bayer 04 Leverkusen",
+      "away": "Borussia M\u00f6nchengladbach",
+      "date": "2026-12-05T00:00:00Z",
+      "status": "SCHEDULED"
+    },
+    {
+      "league": "Bundesliga",
+      "home": "Eintracht Frankfurt",
+      "away": "SV Werder Bremen",
+      "date": "2026-12-05T00:00:00Z",
+      "status": "SCHEDULED"
+    },
+    {
+      "league": "Bundesliga",
+      "home": "RB Leipzig",
+      "away": "1. FSV Mainz 05",
+      "date": "2026-12-05T00:00:00Z",
+      "status": "SCHEDULED"
+    },
+    {
+      "league": "Bundesliga",
+      "home": "SV 07 Elversberg",
+      "away": "VfB Stuttgart",
+      "date": "2026-12-05T00:00:00Z",
+      "status": "SCHEDULED"
+    },
+    {
+      "league": "Bundesliga",
+      "home": "SC Freiburg",
+      "away": "TSG 1899 Hoffenheim",
+      "date": "2026-12-05T00:00:00Z",
+      "status": "SCHEDULED"
+    },
+    {
+      "league": "Bundesliga",
+      "home": "FC Bayern M\u00fcnchen",
+      "away": "SC Paderborn 07",
+      "date": "2026-12-05T00:00:00Z",
+      "status": "SCHEDULED"
+    },
+    {
+      "league": "Bundesliga",
+      "home": "FC Augsburg",
+      "away": "1. FC K\u00f6ln",
+      "date": "2026-12-05T00:00:00Z",
+      "status": "SCHEDULED"
+    },
+    {
       "league": "Serie A",
       "home": "Venezia FC",
       "away": "Udinese Calcio",
@@ -891,6 +954,13 @@
       "status": "TIMED"
     },
     {
+      "league": "Serie A",
+      "home": "Bologna FC 1909",
+      "away": "AS Roma",
+      "date": "2026-12-04T19:45:00Z",
+      "status": "TIMED"
+    },
+    {
       "league": "Ligue 1",
       "home": "Toulouse FC",
       "away": "RC Strasbourg Alsace",
@@ -1077,6 +1147,13 @@
       "home": "Olympique Lyonnais",
       "away": "AS Monaco FC",
       "date": "2026-11-29T19:45:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Ligue 1",
+      "home": "Toulouse FC",
+      "away": "Paris Saint-Germain FC",
+      "date": "2026-12-04T19:45:00Z",
       "status": "TIMED"
     },
     {
