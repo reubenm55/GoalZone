@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T13:24:47.237182+00:00",
+  "updated": "2026-11-04T22:57:52.073838+00:00",
   "matches": [
     {
       "league": "Premier League",
@@ -971,14 +971,14 @@
       "league": "Ligue 1",
       "home": "AJ Auxerre",
       "away": "Paris FC",
-      "date": "2026-11-07T16:15:00Z",
+      "date": "2026-11-07T18:00:00Z",
       "status": "TIMED"
     },
     {
       "league": "Ligue 1",
       "home": "Paris Saint-Germain FC",
       "away": "ES Troyes AC",
-      "date": "2026-11-07T19:45:00Z",
+      "date": "2026-11-07T20:05:00Z",
       "status": "TIMED"
     },
     {
@@ -1154,69 +1154,6 @@
       "home": "Toulouse FC",
       "away": "Paris Saint-Germain FC",
       "date": "2026-12-04T19:45:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Champions League",
-      "home": "PAE AEK",
-      "away": "Real Madrid CF",
-      "date": "2026-11-04T17:45:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Champions League",
-      "home": "Fenerbah\u00e7e SK",
-      "away": "Liverpool FC",
-      "date": "2026-11-04T17:45:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Champions League",
-      "home": "RB Leipzig",
-      "away": "Manchester City FC",
-      "date": "2026-11-04T20:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Champions League",
-      "home": "SK Slavia Praha",
-      "away": "Arsenal FC",
-      "date": "2026-11-04T20:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Champions League",
-      "home": "PSV",
-      "away": "Club Brugge KV",
-      "date": "2026-11-04T20:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Champions League",
-      "home": "Borussia Dortmund",
-      "away": "Real Betis Balompi\u00e9",
-      "date": "2026-11-04T20:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Champions League",
-      "home": "FC Porto",
-      "away": "SSC Napoli",
-      "date": "2026-11-04T20:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Champions League",
-      "home": "Racing Club de Lens",
-      "away": "Como 1907",
-      "date": "2026-11-04T20:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Champions League",
-      "home": "Viking FK",
-      "away": "Sabah FK",
-      "date": "2026-11-04T20:00:00Z",
       "status": "TIMED"
     },
     {
