@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T13:39:17.959300+00:00",
+  "updated": "2026-11-05T22:59:06.380210+00:00",
   "matches": [
     {
       "league": "Premier League",
@@ -801,66 +801,52 @@
     },
     {
       "league": "Bundesliga",
-      "home": "1. FC Union Berlin",
-      "away": "Hamburger SV",
-      "date": "2026-12-05T00:00:00Z",
-      "status": "SCHEDULED"
+      "home": "FC Bayern M\u00fcnchen",
+      "away": "SC Paderborn 07",
+      "date": "2026-12-04T19:30:00Z",
+      "status": "TIMED"
     },
     {
       "league": "Bundesliga",
-      "home": "FC Schalke 04",
-      "away": "Borussia Dortmund",
-      "date": "2026-12-05T00:00:00Z",
-      "status": "SCHEDULED"
+      "home": "1. FC Union Berlin",
+      "away": "Hamburger SV",
+      "date": "2026-12-05T14:30:00Z",
+      "status": "TIMED"
     },
     {
       "league": "Bundesliga",
       "home": "Bayer 04 Leverkusen",
       "away": "Borussia M\u00f6nchengladbach",
-      "date": "2026-12-05T00:00:00Z",
-      "status": "SCHEDULED"
-    },
-    {
-      "league": "Bundesliga",
-      "home": "Eintracht Frankfurt",
-      "away": "SV Werder Bremen",
-      "date": "2026-12-05T00:00:00Z",
-      "status": "SCHEDULED"
+      "date": "2026-12-05T14:30:00Z",
+      "status": "TIMED"
     },
     {
       "league": "Bundesliga",
       "home": "RB Leipzig",
       "away": "1. FSV Mainz 05",
-      "date": "2026-12-05T00:00:00Z",
-      "status": "SCHEDULED"
-    },
-    {
-      "league": "Bundesliga",
-      "home": "SV 07 Elversberg",
-      "away": "VfB Stuttgart",
-      "date": "2026-12-05T00:00:00Z",
-      "status": "SCHEDULED"
+      "date": "2026-12-05T14:30:00Z",
+      "status": "TIMED"
     },
     {
       "league": "Bundesliga",
       "home": "SC Freiburg",
       "away": "TSG 1899 Hoffenheim",
-      "date": "2026-12-05T00:00:00Z",
-      "status": "SCHEDULED"
-    },
-    {
-      "league": "Bundesliga",
-      "home": "FC Bayern M\u00fcnchen",
-      "away": "SC Paderborn 07",
-      "date": "2026-12-05T00:00:00Z",
-      "status": "SCHEDULED"
+      "date": "2026-12-05T14:30:00Z",
+      "status": "TIMED"
     },
     {
       "league": "Bundesliga",
       "home": "FC Augsburg",
       "away": "1. FC K\u00f6ln",
-      "date": "2026-12-05T00:00:00Z",
-      "status": "SCHEDULED"
+      "date": "2026-12-05T14:30:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Bundesliga",
+      "home": "Eintracht Frankfurt",
+      "away": "SV Werder Bremen",
+      "date": "2026-12-05T17:30:00Z",
+      "status": "TIMED"
     },
     {
       "league": "Serie A",
