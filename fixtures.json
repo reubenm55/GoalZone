@@ -1,13 +1,6 @@
 {
-  "updated": "2026-11-06T13:22:19.700633+00:00",
+  "updated": "2026-11-06T22:28:43.809293+00:00",
   "matches": [
-    {
-      "league": "Premier League",
-      "home": "Everton FC",
-      "away": "Coventry City FC",
-      "date": "2026-11-06T20:00:00Z",
-      "status": "TIMED"
-    },
     {
       "league": "Premier League",
       "home": "Leeds United FC",
@@ -349,13 +342,6 @@
       "home": "Tottenham Hotspur FC",
       "away": "Arsenal FC",
       "date": "2026-12-06T16:30:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "La Liga",
-      "home": "Sevilla FC",
-      "away": "Deportivo Alav\u00e9s",
-      "date": "2026-11-06T20:00:00Z",
       "status": "TIMED"
     },
     {
@@ -1147,13 +1133,6 @@
       "home": "AC Milan",
       "away": "Parma Calcio 1913",
       "date": "2026-12-06T19:45:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Ligue 1",
-      "home": "Toulouse FC",
-      "away": "RC Strasbourg Alsace",
-      "date": "2026-11-06T19:45:00Z",
       "status": "TIMED"
     },
     {
