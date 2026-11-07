@@ -1,34 +1,6 @@
 {
-  "updated": "2026-11-07T12:00:35.194454+00:00",
+  "updated": "2026-11-07T21:10:20.414709+00:00",
   "matches": [
-    {
-      "league": "Premier League",
-      "home": "Leeds United FC",
-      "away": "Tottenham Hotspur FC",
-      "date": "2026-11-07T12:30:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Premier League",
-      "home": "Arsenal FC",
-      "away": "Hull City AFC",
-      "date": "2026-11-07T15:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Premier League",
-      "home": "Fulham FC",
-      "away": "Newcastle United FC",
-      "date": "2026-11-07T15:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Premier League",
-      "home": "Nottingham Forest FC",
-      "away": "Manchester City FC",
-      "date": "2026-11-07T17:30:00Z",
-      "status": "TIMED"
-    },
     {
       "league": "Premier League",
       "home": "Crystal Palace FC",
@@ -342,34 +314,6 @@
       "home": "Tottenham Hotspur FC",
       "away": "Arsenal FC",
       "date": "2026-12-06T16:30:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "La Liga",
-      "home": "M\u00e1laga CF",
-      "away": "Real Racing Club de Santander",
-      "date": "2026-11-07T13:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "La Liga",
-      "home": "RCD Espanyol de Barcelona",
-      "away": "RC Deportivo La Coru\u00f1a",
-      "date": "2026-11-07T15:15:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "La Liga",
-      "home": "CA Osasuna",
-      "away": "Athletic Club",
-      "date": "2026-11-07T17:30:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "La Liga",
-      "home": "Valencia CF",
-      "away": "Real Madrid CF",
-      "date": "2026-11-07T20:00:00Z",
       "status": "TIMED"
     },
     {
@@ -864,34 +808,6 @@
     },
     {
       "league": "Serie A",
-      "home": "Torino FC",
-      "away": "US Lecce",
-      "date": "2026-11-07T14:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Serie A",
-      "home": "Cagliari Calcio",
-      "away": "Frosinone Calcio",
-      "date": "2026-11-07T14:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Serie A",
-      "home": "Parma Calcio 1913",
-      "away": "Bologna FC 1909",
-      "date": "2026-11-07T17:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Serie A",
-      "home": "AS Roma",
-      "away": "US Sassuolo Calcio",
-      "date": "2026-11-07T19:45:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Serie A",
       "home": "SSC Napoli",
       "away": "SS Lazio",
       "date": "2026-11-08T11:30:00Z",
@@ -1133,20 +1049,6 @@
       "home": "ACF Fiorentina",
       "away": "Cagliari Calcio",
       "date": "2026-12-07T19:45:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Ligue 1",
-      "home": "AJ Auxerre",
-      "away": "Paris FC",
-      "date": "2026-11-07T18:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Ligue 1",
-      "home": "Paris Saint-Germain FC",
-      "away": "ES Troyes AC",
-      "date": "2026-11-07T20:05:00Z",
       "status": "TIMED"
     },
     {
