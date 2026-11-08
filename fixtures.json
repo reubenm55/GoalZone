@@ -1,41 +1,6 @@
 {
-  "updated": "2026-11-08T12:20:34.547027+00:00",
+  "updated": "2026-11-08T21:25:59.434566+00:00",
   "matches": [
-    {
-      "league": "Premier League",
-      "home": "Crystal Palace FC",
-      "away": "Liverpool FC",
-      "date": "2026-11-08T14:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Premier League",
-      "home": "Sunderland AFC",
-      "away": "Chelsea FC",
-      "date": "2026-11-08T14:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Premier League",
-      "home": "Ipswich Town FC",
-      "away": "AFC Bournemouth",
-      "date": "2026-11-08T14:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Premier League",
-      "home": "Brighton & Hove Albion FC",
-      "away": "Brentford FC",
-      "date": "2026-11-08T14:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Premier League",
-      "home": "Manchester United FC",
-      "away": "Aston Villa FC",
-      "date": "2026-11-08T16:30:00Z",
-      "status": "TIMED"
-    },
     {
       "league": "Premier League",
       "home": "Manchester City FC",
@@ -318,41 +283,6 @@
     },
     {
       "league": "La Liga",
-      "home": "Elche CF",
-      "away": "Real Betis Balompi\u00e9",
-      "date": "2026-11-08T13:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "La Liga",
-      "home": "Real Sociedad de F\u00fatbol",
-      "away": "Rayo Vallecano de Madrid",
-      "date": "2026-11-08T15:15:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "La Liga",
-      "home": "RC Celta de Vigo",
-      "away": "Levante UD",
-      "date": "2026-11-08T17:30:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "La Liga",
-      "home": "Villarreal CF",
-      "away": "Getafe CF",
-      "date": "2026-11-08T17:30:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "La Liga",
-      "home": "Club Atl\u00e9tico de Madrid",
-      "away": "FC Barcelona",
-      "date": "2026-11-08T20:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "La Liga",
       "home": "Athletic Club",
       "away": "RCD Espanyol de Barcelona",
       "date": "2026-11-20T20:00:00Z",
@@ -577,27 +507,6 @@
     },
     {
       "league": "Bundesliga",
-      "home": "1. FC K\u00f6ln",
-      "away": "Bayer 04 Leverkusen",
-      "date": "2026-11-08T14:30:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Bundesliga",
-      "home": "SC Freiburg",
-      "away": "1. FC Union Berlin",
-      "date": "2026-11-08T16:30:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Bundesliga",
-      "home": "TSG 1899 Hoffenheim",
-      "away": "FC Schalke 04",
-      "date": "2026-11-08T18:30:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Bundesliga",
       "home": "FC Bayern M\u00fcnchen",
       "away": "1. FC K\u00f6ln",
       "date": "2026-11-20T19:30:00Z",
@@ -783,34 +692,6 @@
       "home": "SV 07 Elversberg",
       "away": "VfB Stuttgart",
       "date": "2026-12-06T16:30:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Serie A",
-      "home": "Genoa CFC",
-      "away": "AC Milan",
-      "date": "2026-11-08T14:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Serie A",
-      "home": "AC Monza",
-      "away": "Atalanta BC",
-      "date": "2026-11-08T14:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Serie A",
-      "home": "FC Internazionale Milano",
-      "away": "Como 1907",
-      "date": "2026-11-08T17:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Serie A",
-      "home": "ACF Fiorentina",
-      "away": "Juventus FC",
-      "date": "2026-11-08T19:45:00Z",
       "status": "TIMED"
     },
     {
@@ -1021,48 +902,6 @@
       "home": "ACF Fiorentina",
       "away": "Cagliari Calcio",
       "date": "2026-12-07T19:45:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Ligue 1",
-      "home": "Stade Rennais FC 1901",
-      "away": "Lille OSC",
-      "date": "2026-11-08T14:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Ligue 1",
-      "home": "Le Mans FC",
-      "away": "AS Monaco FC",
-      "date": "2026-11-08T16:15:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Ligue 1",
-      "home": "Stade Brestois 29",
-      "away": "Olympique Lyonnais",
-      "date": "2026-11-08T16:15:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Ligue 1",
-      "home": "Le Havre AC",
-      "away": "FC Lorient",
-      "date": "2026-11-08T16:15:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Ligue 1",
-      "home": "Angers SCO",
-      "away": "OGC Nice",
-      "date": "2026-11-08T16:15:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Ligue 1",
-      "home": "Racing Club de Lens",
-      "away": "Olympique de Marseille",
-      "date": "2026-11-08T19:45:00Z",
       "status": "TIMED"
     },
     {
