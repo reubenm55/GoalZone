@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T02:59:26.745109+00:00",
+  "updated": "2026-11-08T12:20:34.547027+00:00",
   "matches": [
     {
       "league": "Premier League",
@@ -783,13 +783,6 @@
       "home": "SV 07 Elversberg",
       "away": "VfB Stuttgart",
       "date": "2026-12-06T16:30:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Serie A",
-      "home": "SSC Napoli",
-      "away": "SS Lazio",
-      "date": "2026-11-08T11:30:00Z",
       "status": "TIMED"
     },
     {
