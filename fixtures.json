@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T21:10:20.414709+00:00",
+  "updated": "2026-11-08T02:59:26.745109+00:00",
   "matches": [
     {
       "league": "Premier League",
@@ -493,6 +493,20 @@
     },
     {
       "league": "La Liga",
+      "home": "Real Sociedad de F\u00fatbol",
+      "away": "Real Madrid CF",
+      "date": "2026-12-02T18:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "La Liga",
+      "home": "FC Barcelona",
+      "away": "Club Atl\u00e9tico de Madrid",
+      "date": "2026-12-02T20:30:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "La Liga",
       "home": "CA Osasuna",
       "away": "Elche CF",
       "date": "2026-12-06T00:00:00Z",
@@ -560,41 +574,6 @@
       "away": "Levante UD",
       "date": "2026-12-06T00:00:00Z",
       "status": "SCHEDULED"
-    },
-    {
-      "league": "Bundesliga",
-      "home": "RB Leipzig",
-      "away": "FC Augsburg",
-      "date": "2026-11-07T14:30:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Bundesliga",
-      "home": "Borussia Dortmund",
-      "away": "SV 07 Elversberg",
-      "date": "2026-11-07T14:30:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Bundesliga",
-      "home": "1. FSV Mainz 05",
-      "away": "FC Bayern M\u00fcnchen",
-      "date": "2026-11-07T14:30:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Bundesliga",
-      "home": "SC Paderborn 07",
-      "away": "Eintracht Frankfurt",
-      "date": "2026-11-07T14:30:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Bundesliga",
-      "home": "VfB Stuttgart",
-      "away": "SV Werder Bremen",
-      "date": "2026-11-07T17:30:00Z",
-      "status": "TIMED"
     },
     {
       "league": "Bundesliga",
@@ -1406,6 +1385,69 @@
       "home": "FK Shakhtar Donetsk",
       "away": "Fenerbah\u00e7e SK",
       "date": "2026-11-25T20:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Champions League",
+      "home": "Villarreal CF",
+      "away": "Sabah FK",
+      "date": "2026-12-08T17:45:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Champions League",
+      "home": "Viking FK",
+      "away": "Feyenoord Rotterdam",
+      "date": "2026-12-08T17:45:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Champions League",
+      "home": "FC Barcelona",
+      "away": "Manchester City FC",
+      "date": "2026-12-08T20:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Champions League",
+      "home": "Aston Villa FC",
+      "away": "Paris Saint-Germain FC",
+      "date": "2026-12-08T20:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Champions League",
+      "home": "FC Bayern M\u00fcnchen",
+      "away": "SK Slavia Praha",
+      "date": "2026-12-08T20:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Champions League",
+      "home": "SSC Napoli",
+      "away": "Club Brugge KV",
+      "date": "2026-12-08T20:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Champions League",
+      "home": "AS Roma",
+      "away": "Sporting Clube de Portugal",
+      "date": "2026-12-08T20:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Champions League",
+      "home": "Manchester United FC",
+      "away": "RB Leipzig",
+      "date": "2026-12-08T20:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Champions League",
+      "home": "PAE AEK",
+      "away": "Galatasaray SK",
+      "date": "2026-12-08T20:00:00Z",
       "status": "TIMED"
     }
   ],
