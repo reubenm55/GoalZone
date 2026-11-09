@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T21:25:59.434566+00:00",
+  "updated": "2026-11-09T03:22:05.989503+00:00",
   "matches": [
     {
       "league": "Premier League",
@@ -1280,6 +1280,69 @@
       "home": "PAE AEK",
       "away": "Galatasaray SK",
       "date": "2026-12-08T20:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Champions League",
+      "home": "Real Betis Balompi\u00e9",
+      "away": "Como 1907",
+      "date": "2026-12-09T17:45:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Champions League",
+      "home": "\u0160K Slovan Bratislava",
+      "away": "FK Shakhtar Donetsk",
+      "date": "2026-12-09T17:45:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Champions League",
+      "home": "Arsenal FC",
+      "away": "Real Madrid CF",
+      "date": "2026-12-09T20:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Champions League",
+      "home": "Borussia Dortmund",
+      "away": "FC Internazionale Milano",
+      "date": "2026-12-09T20:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Champions League",
+      "home": "PSV",
+      "away": "Club Atl\u00e9tico de Madrid",
+      "date": "2026-12-09T20:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Champions League",
+      "home": "Liverpool FC",
+      "away": "FC Porto",
+      "date": "2026-12-09T20:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Champions League",
+      "home": "Racing Club de Lens",
+      "away": "FK Bod\u00f8/Glimt",
+      "date": "2026-12-09T20:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Champions League",
+      "home": "LASK Linz",
+      "away": "Fenerbah\u00e7e SK",
+      "date": "2026-12-09T20:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Champions League",
+      "home": "VfB Stuttgart",
+      "away": "Lille OSC",
+      "date": "2026-12-09T20:00:00Z",
       "status": "TIMED"
     }
   ],
