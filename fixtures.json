@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T22:56:19.874545+00:00",
+  "updated": "2026-11-13T03:51:53.892497+00:00",
   "matches": [
     {
       "league": "Premier League",
@@ -307,6 +307,41 @@
       "home": "Manchester City FC",
       "away": "Chelsea FC",
       "date": "2026-12-12T17:30:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Premier League",
+      "home": "Sunderland AFC",
+      "away": "Nottingham Forest FC",
+      "date": "2026-12-13T14:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Premier League",
+      "home": "Brighton & Hove Albion FC",
+      "away": "Everton FC",
+      "date": "2026-12-13T14:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Premier League",
+      "home": "Arsenal FC",
+      "away": "AFC Bournemouth",
+      "date": "2026-12-13T14:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Premier League",
+      "home": "Coventry City FC",
+      "away": "Aston Villa FC",
+      "date": "2026-12-13T16:30:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Premier League",
+      "home": "Crystal Palace FC",
+      "away": "Manchester United FC",
+      "date": "2026-12-13T19:00:00Z",
       "status": "TIMED"
     },
     {
@@ -835,6 +870,27 @@
       "status": "TIMED"
     },
     {
+      "league": "Bundesliga",
+      "home": "1. FSV Mainz 05",
+      "away": "SC Freiburg",
+      "date": "2026-12-13T14:30:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Bundesliga",
+      "home": "TSG 1899 Hoffenheim",
+      "away": "FC Bayern M\u00fcnchen",
+      "date": "2026-12-13T16:30:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Bundesliga",
+      "home": "SV Werder Bremen",
+      "away": "Bayer 04 Leverkusen",
+      "date": "2026-12-13T18:30:00Z",
+      "status": "TIMED"
+    },
+    {
       "league": "Serie A",
       "home": "Como 1907",
       "away": "Cagliari Calcio",
@@ -1073,6 +1129,34 @@
       "status": "TIMED"
     },
     {
+      "league": "Serie A",
+      "home": "SS Lazio",
+      "away": "AS Roma",
+      "date": "2026-12-13T11:30:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Serie A",
+      "home": "FC Internazionale Milano",
+      "away": "Torino FC",
+      "date": "2026-12-13T14:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Serie A",
+      "home": "Parma Calcio 1913",
+      "away": "ACF Fiorentina",
+      "date": "2026-12-13T17:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Serie A",
+      "home": "SSC Napoli",
+      "away": "AC Milan",
+      "date": "2026-12-13T19:45:00Z",
+      "status": "TIMED"
+    },
+    {
       "league": "Ligue 1",
       "home": "ES Troyes AC",
       "away": "Le Havre AC",
@@ -1301,6 +1385,27 @@
       "home": "Le Havre AC",
       "away": "Le Mans FC",
       "date": "2026-12-12T19:45:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Ligue 1",
+      "home": "FC Lorient",
+      "away": "Lille OSC",
+      "date": "2026-12-13T14:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Ligue 1",
+      "home": "Stade Rennais FC 1901",
+      "away": "AS Monaco FC",
+      "date": "2026-12-13T16:15:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Ligue 1",
+      "home": "Olympique Lyonnais",
+      "away": "Olympique de Marseille",
+      "date": "2026-12-13T19:45:00Z",
       "status": "TIMED"
     },
     {
