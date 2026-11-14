@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T22:58:16.814264+00:00",
+  "updated": "2026-11-14T03:50:21.221583+00:00",
   "matches": [
     {
       "league": "Premier League",
@@ -342,6 +342,13 @@
       "home": "Crystal Palace FC",
       "away": "Manchester United FC",
       "date": "2026-12-13T19:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Premier League",
+      "home": "Hull City AFC",
+      "away": "Tottenham Hotspur FC",
+      "date": "2026-12-14T20:00:00Z",
       "status": "TIMED"
     },
     {
@@ -1154,6 +1161,20 @@
       "home": "SSC Napoli",
       "away": "AC Milan",
       "date": "2026-12-13T19:45:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Serie A",
+      "home": "Atalanta BC",
+      "away": "Genoa CFC",
+      "date": "2026-12-14T17:30:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Serie A",
+      "home": "Juventus FC",
+      "away": "AC Monza",
+      "date": "2026-12-14T19:45:00Z",
       "status": "TIMED"
     },
     {
