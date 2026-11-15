@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T13:03:59.152967+00:00",
+  "updated": "2026-11-15T22:12:15.673822+00:00",
   "matches": [
     {
       "league": "Premier League",
@@ -507,22 +507,43 @@
     },
     {
       "league": "La Liga",
-      "home": "CA Osasuna",
-      "away": "Elche CF",
-      "date": "2026-12-06T00:00:00Z",
-      "status": "SCHEDULED"
+      "home": "Deportivo Alav\u00e9s",
+      "away": "RCD Espanyol de Barcelona",
+      "date": "2026-12-04T20:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "La Liga",
+      "home": "Real Racing Club de Santander",
+      "away": "RC Deportivo La Coru\u00f1a",
+      "date": "2026-12-05T13:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "La Liga",
+      "home": "Rayo Vallecano de Madrid",
+      "away": "Levante UD",
+      "date": "2026-12-05T15:15:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "La Liga",
+      "home": "Villarreal CF",
+      "away": "Real Sociedad de F\u00fatbol",
+      "date": "2026-12-05T17:30:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "La Liga",
+      "home": "FC Barcelona",
+      "away": "RC Celta de Vigo",
+      "date": "2026-12-05T20:00:00Z",
+      "status": "TIMED"
     },
     {
       "league": "La Liga",
       "home": "Sevilla FC",
       "away": "M\u00e1laga CF",
-      "date": "2026-12-06T00:00:00Z",
-      "status": "SCHEDULED"
-    },
-    {
-      "league": "La Liga",
-      "home": "Deportivo Alav\u00e9s",
-      "away": "RCD Espanyol de Barcelona",
       "date": "2026-12-06T00:00:00Z",
       "status": "SCHEDULED"
     },
@@ -535,20 +556,6 @@
     },
     {
       "league": "La Liga",
-      "home": "Real Racing Club de Santander",
-      "away": "RC Deportivo La Coru\u00f1a",
-      "date": "2026-12-06T00:00:00Z",
-      "status": "SCHEDULED"
-    },
-    {
-      "league": "La Liga",
-      "home": "FC Barcelona",
-      "away": "RC Celta de Vigo",
-      "date": "2026-12-06T00:00:00Z",
-      "status": "SCHEDULED"
-    },
-    {
-      "league": "La Liga",
       "home": "Getafe CF",
       "away": "Valencia CF",
       "date": "2026-12-06T00:00:00Z",
@@ -556,24 +563,17 @@
     },
     {
       "league": "La Liga",
+      "home": "CA Osasuna",
+      "away": "Elche CF",
+      "date": "2026-12-06T13:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "La Liga",
       "home": "Athletic Club",
       "away": "Real Madrid CF",
-      "date": "2026-12-06T00:00:00Z",
-      "status": "SCHEDULED"
-    },
-    {
-      "league": "La Liga",
-      "home": "Villarreal CF",
-      "away": "Real Sociedad de F\u00fatbol",
-      "date": "2026-12-06T00:00:00Z",
-      "status": "SCHEDULED"
-    },
-    {
-      "league": "La Liga",
-      "home": "Rayo Vallecano de Madrid",
-      "away": "Levante UD",
-      "date": "2026-12-06T00:00:00Z",
-      "status": "SCHEDULED"
+      "date": "2026-12-06T15:15:00Z",
+      "status": "TIMED"
     },
     {
       "league": "La Liga",
