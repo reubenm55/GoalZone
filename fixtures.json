@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T14:09:14.710712+00:00",
+  "updated": "2026-11-17T01:13:12.364571+00:00",
   "matches": [
     {
       "league": "Premier League",
@@ -542,20 +542,6 @@
     },
     {
       "league": "La Liga",
-      "home": "Sevilla FC",
-      "away": "M\u00e1laga CF",
-      "date": "2026-12-06T00:00:00Z",
-      "status": "SCHEDULED"
-    },
-    {
-      "league": "La Liga",
-      "home": "Club Atl\u00e9tico de Madrid",
-      "away": "Real Betis Balompi\u00e9",
-      "date": "2026-12-06T00:00:00Z",
-      "status": "SCHEDULED"
-    },
-    {
-      "league": "La Liga",
       "home": "CA Osasuna",
       "away": "Elche CF",
       "date": "2026-12-06T13:00:00Z",
@@ -573,6 +559,20 @@
       "home": "Getafe CF",
       "away": "Valencia CF",
       "date": "2026-12-06T17:30:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "La Liga",
+      "home": "Club Atl\u00e9tico de Madrid",
+      "away": "Real Betis Balompi\u00e9",
+      "date": "2026-12-06T20:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "La Liga",
+      "home": "Sevilla FC",
+      "away": "M\u00e1laga CF",
+      "date": "2026-12-07T20:00:00Z",
       "status": "TIMED"
     },
     {
