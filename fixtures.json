@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T15:02:19.739985+00:00",
+  "updated": "2026-11-18T00:07:18.104839+00:00",
   "matches": [
     {
       "league": "Premier League",
@@ -898,6 +898,13 @@
       "status": "TIMED"
     },
     {
+      "league": "Bundesliga",
+      "home": "FC Bayern M\u00fcnchen",
+      "away": "SV Werder Bremen",
+      "date": "2026-12-18T19:30:00Z",
+      "status": "TIMED"
+    },
+    {
       "league": "Serie A",
       "home": "Como 1907",
       "away": "Cagliari Calcio",
@@ -1175,6 +1182,20 @@
       "home": "Juventus FC",
       "away": "AC Monza",
       "date": "2026-12-14T19:45:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Serie A",
+      "home": "Frosinone Calcio",
+      "away": "SS Lazio",
+      "date": "2026-12-18T17:30:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Serie A",
+      "home": "US Lecce",
+      "away": "FC Internazionale Milano",
+      "date": "2026-12-18T19:45:00Z",
       "status": "TIMED"
     },
     {
