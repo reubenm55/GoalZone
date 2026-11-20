@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T14:30:20.946212+00:00",
+  "updated": "2026-11-20T23:27:37.022121+00:00",
   "matches": [
     {
       "league": "Premier League",
@@ -416,13 +416,6 @@
     },
     {
       "league": "La Liga",
-      "home": "Athletic Club",
-      "away": "RCD Espanyol de Barcelona",
-      "date": "2026-11-20T20:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "La Liga",
       "home": "Deportivo Alav\u00e9s",
       "away": "RC Deportivo La Coru\u00f1a",
       "date": "2026-11-21T13:00:00Z",
@@ -777,13 +770,6 @@
       "away": "Real Racing Club de Santander",
       "date": "2026-12-20T00:00:00Z",
       "status": "SCHEDULED"
-    },
-    {
-      "league": "Bundesliga",
-      "home": "FC Bayern M\u00fcnchen",
-      "away": "1. FC K\u00f6ln",
-      "date": "2026-11-20T19:30:00Z",
-      "status": "TIMED"
     },
     {
       "league": "Bundesliga",
@@ -1441,13 +1427,6 @@
       "home": "Atalanta BC",
       "away": "SSC Napoli",
       "date": "2026-12-20T19:45:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Ligue 1",
-      "home": "ES Troyes AC",
-      "away": "Le Havre AC",
-      "date": "2026-11-20T19:45:00Z",
       "status": "TIMED"
     },
     {
