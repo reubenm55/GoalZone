@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T23:58:32.264514+00:00",
+  "updated": "2026-11-20T05:36:55.624529+00:00",
   "matches": [
     {
       "league": "Premier League",
@@ -384,6 +384,34 @@
       "home": "Liverpool FC",
       "away": "Tottenham Hotspur FC",
       "date": "2026-12-19T17:30:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Premier League",
+      "home": "Brighton & Hove Albion FC",
+      "away": "Ipswich Town FC",
+      "date": "2026-12-20T14:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Premier League",
+      "home": "Nottingham Forest FC",
+      "away": "Everton FC",
+      "date": "2026-12-20T14:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Premier League",
+      "home": "Sunderland AFC",
+      "away": "Crystal Palace FC",
+      "date": "2026-12-20T14:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Premier League",
+      "home": "Arsenal FC",
+      "away": "Manchester United FC",
+      "date": "2026-12-20T16:30:00Z",
       "status": "TIMED"
     },
     {
@@ -1045,6 +1073,27 @@
       "status": "TIMED"
     },
     {
+      "league": "Bundesliga",
+      "home": "SC Freiburg",
+      "away": "VfB Stuttgart",
+      "date": "2026-12-20T14:30:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Bundesliga",
+      "home": "1. FC Union Berlin",
+      "away": "TSG 1899 Hoffenheim",
+      "date": "2026-12-20T16:30:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Bundesliga",
+      "home": "FC Schalke 04",
+      "away": "Borussia M\u00f6nchengladbach",
+      "date": "2026-12-20T18:30:00Z",
+      "status": "TIMED"
+    },
+    {
       "league": "Serie A",
       "home": "Como 1907",
       "away": "Cagliari Calcio",
@@ -1357,6 +1406,41 @@
       "home": "AS Roma",
       "away": "Juventus FC",
       "date": "2026-12-19T19:45:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Serie A",
+      "home": "ACF Fiorentina",
+      "away": "Bologna FC 1909",
+      "date": "2026-12-20T11:30:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Serie A",
+      "home": "Torino FC",
+      "away": "Cagliari Calcio",
+      "date": "2026-12-20T14:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Serie A",
+      "home": "Venezia FC",
+      "away": "AC Monza",
+      "date": "2026-12-20T14:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Serie A",
+      "home": "Genoa CFC",
+      "away": "Udinese Calcio",
+      "date": "2026-12-20T17:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Serie A",
+      "home": "Atalanta BC",
+      "away": "SSC Napoli",
+      "date": "2026-12-20T19:45:00Z",
       "status": "TIMED"
     },
     {
