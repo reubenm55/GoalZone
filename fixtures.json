@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-21T13:49:32.555851+00:00",
+  "updated": "2026-11-21T22:31:45.451717+00:00",
   "matches": [
+    {
+      "league": "Premier League",
+      "home": "Manchester City FC",
+      "away": "Fulham FC",
+      "date": "2026-11-21T12:30:00Z",
+      "status": "TIMED"
+    },
     {
       "league": "Premier League",
       "home": "Chelsea FC",
@@ -416,34 +423,6 @@
     },
     {
       "league": "La Liga",
-      "home": "Deportivo Alav\u00e9s",
-      "away": "RC Deportivo La Coru\u00f1a",
-      "date": "2026-11-21T13:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "La Liga",
-      "home": "Rayo Vallecano de Madrid",
-      "away": "Valencia CF",
-      "date": "2026-11-21T15:15:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "La Liga",
-      "home": "Sevilla FC",
-      "away": "Real Betis Balompi\u00e9",
-      "date": "2026-11-21T17:30:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "La Liga",
-      "home": "Real Madrid CF",
-      "away": "RC Celta de Vigo",
-      "date": "2026-11-21T20:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "La Liga",
       "home": "FC Barcelona",
       "away": "Villarreal CF",
       "date": "2026-11-22T13:00:00Z",
@@ -773,48 +752,6 @@
     },
     {
       "league": "Bundesliga",
-      "home": "Bayer 04 Leverkusen",
-      "away": "SC Paderborn 07",
-      "date": "2026-11-21T14:30:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Bundesliga",
-      "home": "1. FC Union Berlin",
-      "away": "RB Leipzig",
-      "date": "2026-11-21T14:30:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Bundesliga",
-      "home": "SV 07 Elversberg",
-      "away": "SC Freiburg",
-      "date": "2026-11-21T14:30:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Bundesliga",
-      "home": "Borussia M\u00f6nchengladbach",
-      "away": "Borussia Dortmund",
-      "date": "2026-11-21T14:30:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Bundesliga",
-      "home": "Eintracht Frankfurt",
-      "away": "TSG 1899 Hoffenheim",
-      "date": "2026-11-21T14:30:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Bundesliga",
-      "home": "FC Schalke 04",
-      "away": "VfB Stuttgart",
-      "date": "2026-11-21T17:30:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Bundesliga",
       "home": "FC Augsburg",
       "away": "1. FSV Mainz 05",
       "date": "2026-11-22T14:30:00Z",
@@ -1077,34 +1014,6 @@
       "home": "FC Schalke 04",
       "away": "Borussia M\u00f6nchengladbach",
       "date": "2026-12-20T18:30:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Serie A",
-      "home": "Como 1907",
-      "away": "Cagliari Calcio",
-      "date": "2026-11-21T14:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Serie A",
-      "home": "SS Lazio",
-      "away": "US Lecce",
-      "date": "2026-11-21T14:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Serie A",
-      "home": "Parma Calcio 1913",
-      "away": "AS Roma",
-      "date": "2026-11-21T17:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Serie A",
-      "home": "SSC Napoli",
-      "away": "Torino FC",
-      "date": "2026-11-21T19:45:00Z",
       "status": "TIMED"
     },
     {
@@ -1427,41 +1336,6 @@
       "home": "Atalanta BC",
       "away": "SSC Napoli",
       "date": "2026-12-20T19:45:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Ligue 1",
-      "home": "OGC Nice",
-      "away": "Paris Saint-Germain FC",
-      "date": "2026-11-21T16:15:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Ligue 1",
-      "home": "AS Monaco FC",
-      "away": "AJ Auxerre",
-      "date": "2026-11-21T19:45:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Ligue 1",
-      "home": "Racing Club de Lens",
-      "away": "Toulouse FC",
-      "date": "2026-11-21T19:45:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Ligue 1",
-      "home": "Lille OSC",
-      "away": "Olympique Lyonnais",
-      "date": "2026-11-21T19:45:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Ligue 1",
-      "home": "RC Strasbourg Alsace",
-      "away": "Stade Brestois 29",
-      "date": "2026-11-21T19:45:00Z",
       "status": "TIMED"
     },
     {
