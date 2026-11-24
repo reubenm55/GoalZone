@@ -1,13 +1,6 @@
 {
-  "updated": "2026-11-23T16:42:28.126770+00:00",
+  "updated": "2026-11-24T03:33:24.360478+00:00",
   "matches": [
-    {
-      "league": "Premier League",
-      "home": "Brentford FC",
-      "away": "Everton FC",
-      "date": "2026-11-23T20:00:00Z",
-      "status": "TIMED"
-    },
     {
       "league": "Premier League",
       "home": "Nottingham Forest FC",
@@ -356,13 +349,6 @@
       "home": "Chelsea FC",
       "away": "Aston Villa FC",
       "date": "2026-12-21T20:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "La Liga",
-      "home": "Levante UD",
-      "away": "Elche CF",
-      "date": "2026-11-23T20:00:00Z",
       "status": "TIMED"
     },
     {
@@ -909,13 +895,6 @@
       "home": "FC Schalke 04",
       "away": "Borussia M\u00f6nchengladbach",
       "date": "2026-12-20T18:30:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Serie A",
-      "home": "AC Monza",
-      "away": "ACF Fiorentina",
-      "date": "2026-11-23T19:45:00Z",
       "status": "TIMED"
     },
     {
