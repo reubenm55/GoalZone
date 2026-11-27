@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T15:55:18.424177+00:00",
+  "updated": "2026-11-27T01:14:10.325917+00:00",
   "matches": [
     {
       "league": "Premier League",
@@ -398,6 +398,27 @@
       "home": "Newcastle United FC",
       "away": "Manchester City FC",
       "date": "2026-12-26T20:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Premier League",
+      "home": "Coventry City FC",
+      "away": "Chelsea FC",
+      "date": "2026-12-27T14:00:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Premier League",
+      "home": "Manchester United FC",
+      "away": "Nottingham Forest FC",
+      "date": "2026-12-27T16:30:00Z",
+      "status": "TIMED"
+    },
+    {
+      "league": "Premier League",
+      "home": "Crystal Palace FC",
+      "away": "Arsenal FC",
+      "date": "2026-12-27T19:00:00Z",
       "status": "TIMED"
     },
     {
