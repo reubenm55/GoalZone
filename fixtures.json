@@ -1,13 +1,6 @@
 {
-  "updated": "2026-11-27T15:44:32.896611+00:00",
+  "updated": "2026-11-28T00:46:46.870868+00:00",
   "matches": [
-    {
-      "league": "Premier League",
-      "home": "Nottingham Forest FC",
-      "away": "Chelsea FC",
-      "date": "2026-11-27T20:00:00Z",
-      "status": "TIMED"
-    },
     {
       "league": "Premier League",
       "home": "Leeds United FC",
@@ -423,13 +416,6 @@
     },
     {
       "league": "La Liga",
-      "home": "Levante UD",
-      "away": "Real Racing Club de Santander",
-      "date": "2026-11-27T20:00:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "La Liga",
       "home": "Real Betis Balompi\u00e9",
       "away": "Rayo Vallecano de Madrid",
       "date": "2026-11-28T13:00:00Z",
@@ -724,13 +710,6 @@
     },
     {
       "league": "Bundesliga",
-      "home": "SV Werder Bremen",
-      "away": "Borussia M\u00f6nchengladbach",
-      "date": "2026-11-27T19:30:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Bundesliga",
       "home": "1. FC K\u00f6ln",
       "away": "SV 07 Elversberg",
       "date": "2026-11-28T14:30:00Z",
@@ -972,13 +951,6 @@
       "home": "FC Schalke 04",
       "away": "Borussia M\u00f6nchengladbach",
       "date": "2026-12-20T18:30:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Serie A",
-      "home": "Venezia FC",
-      "away": "Bologna FC 1909",
-      "date": "2026-11-27T19:45:00Z",
       "status": "TIMED"
     },
     {
@@ -1252,13 +1224,6 @@
       "home": "Atalanta BC",
       "away": "SSC Napoli",
       "date": "2026-12-20T19:45:00Z",
-      "status": "TIMED"
-    },
-    {
-      "league": "Ligue 1",
-      "home": "Stade Brestois 29",
-      "away": "Paris FC",
-      "date": "2026-11-27T19:45:00Z",
       "status": "TIMED"
     },
     {
